@@ -1,0 +1,74 @@
+﻿<div class="timeline-container">
+  <h3>Historical Ledger: Nazi Art Plunder, The Monuments Men, and the Wiesbaden CCP (1933–1956)</h3>
+  <table class="matrix-table">
+    <thead>
+      <tr>
+        <th style="width: 15%;">Date / Year</th>
+        <th style="width: 45%;">Historical Event & Military Milestone</th>
+        <th style="width: 40%;">Connection to <em>The Roses Underneath</em></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>September 1933</strong></td>
+        <td>Joseph Goebbels establishes the <em>Reichskulturkammer</em> (Reich Chamber of Culture). The Nazi state seizes control of all German arts and begins confiscating modern "degenerate art" (<em>Entartete Kunst</em>).</td>
+        <td>Antagonist Ludwig Schneider worked as an appraiser for the Reichskulturkammer in Frankfurt, forcing Jewish families to sell art at pennies on the dollar.</td>
+      </tr>
+      <tr>
+        <td><strong>July 5, 1940</strong></td>
+        <td>Hitler decrees the creation of the <em>Einsatzstab Reichsleiter Rosenberg</em> (ERR). Led by Alfred Rosenberg, this unit systematically loots Jewish-owned art, archives, and libraries across occupied France, Belgium, and Europe.</td>
+        <td>Gerhart Heinrich (alias "Konrad Schenk") was an elite ERR looter who stole millions in art across Paris and Vienna before hiding a private hoard at the Dotzheim villa.</td>
+      </tr>
+      <tr>
+        <td><strong>June 23, 1943</strong></td>
+        <td>President Franklin D. Roosevelt approves the Roberts Commission. This leads to the creation of the Monuments, Fine Arts, and Archives (MFAA) section—the "Monuments Men."</td>
+        <td>Captain Henry Cooper serves as an MFAA specialist officer, using his civilian background as a Chicago architect to protect landmarks and recover looted treasures.</td>
+      </tr>
+      <tr>
+        <td><strong>Sept 11, 1944</strong></td>
+        <td>The Royal Air Force firebombs Darmstadt in a devastating 30-minute raid. Firestorms incinerate the city center and bomb shelters, killing over 11,000 civilians.</td>
+        <td>Eight-year-old Oskar Grünewald survives under his dying mother Magda in their burning Heinrichstrasse cellar. Anna remembers it as her 7th wedding anniversary.</td>
+      </tr>
+      <tr>
+        <td><strong>April 6–8, 1945</strong></td>
+        <td>The U.S. 90th Infantry Division discovers the Merkers Salt Mine in Thuringia. Generals Eisenhower, Patton, and Bradley inspect tons of Nazi gold bullion and 400 cases of Berlin State Museum masterworks, including the Bust of Nefertiti.</td>
+        <td>In Chapter 10, Madeleine and Anna discuss the Merkers mine discovery. In Chapter 25, Cooper sneaks Anna, Amalia, and Oskar in for a private viewing of Queen Nefertiti's crate.</td>
+      </tr>
+      <tr>
+        <td><strong>June 1945</strong></td>
+        <td>The U.S. Army creates four Central Collecting Points: Munich (foreign loot), Marburg (regional churches), Offenbach (Jewish books and archives), and Wiesbaden (German state collections). Captain Walter Ings Farmer becomes the first Director of the Wiesbaden Central Collecting Point (WCCP) at the damaged Landesmuseum.</td>
+        <td>Captain Farmer leads the restoration of the Landesmuseum. He steals 2,000 panes of glass left by the Luftwaffe and trades cots for civilian food rations. Anna works in the 3rd-floor typing pool.</td>
+      </tr>
+      <tr>
+        <td><strong>August 20, 1945</strong></td>
+        <td>The first massive convoy of 50 trucks transfers Berlin museum treasures from the Frankfurt Reichsbank to the Wiesbaden Landesmuseum under heavy tank and military guard.</td>
+        <td>The setting for Chapters 16–17. Anna helps inventory rooms filled with crates, where Cooper pops open a crate to reveal Rembrandt's <em>The Money Changer</em>.</td>
+      </tr>
+      <tr>
+        <td><strong>Nov 7, 1945</strong></td>
+        <td>U.S. military command orders 202 German-owned masterpieces shipped from Wiesbaden to Washington, D.C. In protest, Captain Walter Farmer gathers 35 MFAA officers to sign the <strong>Wiesbaden Manifesto</strong>. Drafted by Captain Everett Parker Lesley Jr., it is the only formal protest by Allied officers against higher orders in WWII.</td>
+        <td>Mirrors the central moral conflict in the novel: Cooper and Farmer fight against military brass (Major Phillips) who want to treat German cultural heritage as war prizes.</td>
+      </tr>
+      <tr>
+        <td><strong>March 1946</strong></td>
+        <td>Captain Farmer steps down as WCCP Director. Captain Edith A. Standen—the only woman officer to sign the Wiesbaden Manifesto—takes command, overseeing international restitution to France, Poland, Belgium, and the Netherlands.</td>
+        <td>Represents the transition from emergency shelter operations to rigorous, legal provenance research and restitution, which ultimately clears Anna and restores Oskar's family paintings.</td>
+      </tr>
+      <tr>
+        <td><strong>1948–1949</strong></td>
+        <td>Following public outcry and protests by American museum directors, President Harry Truman orders the 202 Berlin paintings returned to Wiesbaden after a 12-city U.S. tour.</td>
+        <td>Proves Captain Farmer and the Monuments Men right: democratic principles require returning cultural property to its rightful homeland.</td>
+      </tr>
+      <tr>
+        <td><strong>August 1951</strong></td>
+        <td>The Wiesbaden Central Collecting Point officially closes after processing, cataloging, and restituting over 700,000 cultural artifacts. Custody transfers to the West German government.</td>
+        <td>The real-world conclusion to the post-war preservation mission begun in the chaotic days of August 1945.</td>
+      </tr>
+      <tr>
+        <td><strong>1956</strong></td>
+        <td>The ancient Egyptian Bust of Queen Nefertiti is officially returned from Wiesbaden to West Berlin (Charlottenburg Museum), later moving to the restored Neues Museum on Museum Island in 2009.</td>
+        <td>Completes the journey of the "Painted Queen" that Amalia and Oskar saw resting quietly in her wooden transit crate in Chapter 25.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
