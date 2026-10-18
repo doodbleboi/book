@@ -1,0 +1,20 @@
+<div class="discussion-section">
+  <h3>I. Thematic Strengths & Gothic Conventions</h3>
+  <div class="dossier-card" style="margin-bottom: 1.5rem;">
+    <h4>Subversion of Traditional Gothic Tropes</h4>
+    <p>Silvia Moreno-Garcia relocates the classic European Gothic haunted house (traditionally set in Yorkshire moors or New England) to the foggy mountains of Hidalgo, Mexico. How does the clash between 1950s Mexican cosmopolitan life and decadent Victorian British isolation re-energize the genre?</p>
+  </div>
+  <div class="dossier-card" style="margin-bottom: 1.5rem;">
+    <h4>Eugenics and Imperial Parasitism</h4>
+    <p>The Doyles are literal parasites—exploiting Mexican silver mine labor in the 19th century and feeding on human hosts via symbiotic mycelium. How does the author use biological and fungal metaphors to explore colonial exploitation?</p>
+  </div>
+
+  <h3>II. Key Discussion Questions</h3>
+  <ol style="line-height: 1.8; padding-left: 1.5rem; color: #2d3748;">
+    <li><strong>Agency and Social Expectations:</strong> Noemí is initially characterized by her father as a frivolous party girl. How do her social poise, fashion awareness, and education serve as weapons rather than weaknesses inside High Place?</li>
+    <li><strong>Fungal Symbiosis vs. Bodily Autonomy:</strong> The gloom (mycelium) creates shared memories and physical regeneration, but demands absolute submission. What does the fungus symbolize in terms of family legacy and trauma?</li>
+    <li><strong>The Role of Francis:</strong> Is Francis a willing bystander to his family's crimes, or an abused victim who finally finds the strength to revolt? Can his complicity be forgiven?</li>
+    <li><strong>Catalina's Letter:</strong> Why did everyone except Noemí dismiss Catalina's initial letter as hysterical madness? How does the novel critique mid-century views on women's mental health?</li>
+    <li><strong>The Cemetery and the Town:</strong> How does the town of El Triunfo reflect the physical and economic aftermath of British mining companies abandoning local workers once the resources were drained?</li>
+  </ol>
+</div>

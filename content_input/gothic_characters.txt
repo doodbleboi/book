@@ -1,0 +1,42 @@
+<div class="dossier-grid">
+  <div class="dossier-card">
+    <h4>Noemí Taboada</h4>
+    <span class="dossier-badge">Protagonist</span>
+    <p>A smart, glamorous 22-year-old socialite and anthropology student from Mexico City. Beneath her party-girl reputation lies keen intellect, resilience, and unshakeable courage when confronting the horrors of High Place.</p>
+  </div>
+  <div class="dossier-card">
+    <h4>Catalina Sandoval Doyle</h4>
+    <span class="dossier-badge">The Imperiled Cousin</span>
+    <p>Noemí's gentle, romantic cousin whose desperate, erratic letter initiates the rescue mission. Trapped in a deteriorating marriage to Virgil Doyle and subdued by mysterious illnesses and fungal hallucinations.</p>
+  </div>
+  <div class="dossier-card">
+    <h4>Francis Doyle</h4>
+    <span class="dossier-badge">Ally / Confidant</span>
+    <p>The quiet, introverted son of Florence Doyle. Unlike the rest of his family, he shows empathy and botanical curiosity. He forms a fragile bond with Noemí and becomes vital to the cousins' escape.</p>
+  </div>
+  <div class="dossier-card">
+    <h4>Virgil Doyle</h4>
+    <span class="dossier-badge">Antagonist / Husband</span>
+    <p>Catalina's charming yet predatory husband. Controlled, condescending, and intensely focused on preserving the Doyle family legacy and securing control over Noemí and Catalina.</p>
+  </div>
+  <div class="dossier-card">
+    <h4>Howard Doyle</h4>
+    <span class="dossier-badge">Patriarch / Source of Infection</span>
+    <p>The decrepit, ancient head of the Doyle clan. Obsessed with 19th-century theories of racial purity and eugenics, he maintains his unnatural lifespan through an ancient symbiotic fungus infused into his bloodline.</p>
+  </div>
+  <div class="dossier-card">
+    <h4>Florence Doyle</h4>
+    <span class="dossier-badge">Enforcer / Housekeeper</span>
+    <p>Francis's rigid, unsmiling mother who enforces strict rules across High Place: total silence at dinners, no speaking Spanish, no unapproved outdoor excursions, and cold medical isolation.</p>
+  </div>
+  <div class="dossier-card">
+    <h4>Dr. Arthur Cummins</h4>
+    <span class="dossier-badge">Complicit Physician</span>
+    <p>The local English doctor loyal to the Doyle family. Dismisses Catalina's and Noemí's symptoms as hysterical female delusion while administering tinctures that keep them subdued.</p>
+  </div>
+  <div class="dossier-card">
+    <h4>Marta Duval</h4>
+    <span class="dossier-badge">Local Healer / Curandera</span>
+    <p>A village woman in El Triunfo knowledgeable in folk remedies. She provides Noemí with herbal tinctures and protective warnings regarding the cursed English cemetery and the Doyles' silver mines.</p>
+  </div>
+</div>

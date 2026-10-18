@@ -1,0 +1,31 @@
+<table class="matrix-table">
+  <thead>
+    <tr>
+      <th style="width: 20%;">Narrative Arc</th>
+      <th style="width: 45%;">Core Chapter Developments & Plot Points</th>
+      <th style="width: 35%;">Thematic Motifs & Setting Lore</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><strong>Part I: Arrival at High Place</strong><br>(Chapters 1–6)</td>
+      <td>Noemí Taboada leaves 1950s Mexico City after receiving a frantic, incoherent letter from newlywed cousin Catalina. She arrives in El Triunfo, Hidalgo, entering the oppressive, mold-covered Victorian mansion of the Doyle family. First encounters with the authoritarian patriarch Howard, the cold Florence, and the quiet Francis.</td>
+      <td>Contrast between cosmopolitan 1950s Mexican modernity and decayed British colonial aristocracy; isolation; atmospheric decay and sensory distortion.</td>
+    </tr>
+    <tr>
+      <td><strong>Part II: The Looming Gloom</strong><br>(Chapters 7–15)</td>
+      <td>Noemí investigates the family's abandoned silver mine and local cemetery. Catalina claims the house breathes and poisons her through the wallpaper. Noemí experiences recurring sleepwalking episodes, auditory hallucinations of a golden woman, and vivid nightmares of living golden mold.</td>
+      <td>19th-century silver exploitation; English eugenics; botanical and fungal infestation as metaphors for imperialist parasitism.</td>
+    </tr>
+    <tr>
+      <td><strong>Part III: The Mycological Secret</strong><br>(Chapters 16–22)</td>
+      <td>Francis confides in Noemí about the Doyles' ancestral pact with an ancient fungal strain imported from Europe. Howard's unnatural longevity requires blood sacrifices and endogamy. Catalina and Noemí discover the truth behind Ruth Doyle's past murders and the family cemetery graves.</td>
+      <td>Gothic body horror; the violence of dynastic preservation; bio-symbiosis and patriarchal coercion.</td>
+    </tr>
+    <tr>
+      <td><strong>Part IV: The Final Rupture</strong><br>(Chapters 23–27)</td>
+      <td>Forced wedding ceremony prepared by Howard and Virgil. Francis aids Noemí and Catalina in a desperate counter-attack. The confrontation in the family laboratory, the fire in the damp tunnels, and the collapse of the High Place dynasty as the cousins escape into dawn.</td>
+      <td>Destruction of colonial bloodlines; reclamation of autonomy; the collapse of the haunted house archetype.</td>
+    </tr>
+  </tbody>
+</table>

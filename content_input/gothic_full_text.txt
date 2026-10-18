@@ -1,0 +1,16 @@
+<div class="full-text-reader" style="width:100%; display:block;">
+  <div style="background:#4a5568; color:#fff; padding:0.75rem 1.25rem; border-radius:6px 6px 0 0; font-weight:bold; font-size:0.95rem;">
+    Mexican Gothic by Silvia Moreno-Garcia &bull; Unabridged Text Reader (Staged Placeholder)
+  </div>
+  <div class="book-body" style="background:#ffffff; color:#1a202c; padding:2rem; border:1px solid #cbd5e0; border-top:none; border-radius:0 0 6px 6px; font-family:Georgia, serif; font-size:1.05rem; line-height:1.8; max-height:85vh; overflow-y:auto;">
+    <div style="text-align:center; padding:3rem 1rem;">
+      <h2 style="color:#2d3748; margin-bottom:1rem;">Mexican Gothic</h2>
+      <p style="font-style:italic; color:#718096; margin-bottom:2rem;">By Silvia Moreno-Garcia</p>
+      <div style="max-width:600px; margin:0 auto; padding:1.5rem; background:#f7fafc; border:1px dashed #cbd5e0; border-radius:8px; text-align:left;">
+        <p style="margin-bottom:1rem; font-weight:bold; color:#4a5568;">Staging Container Ready</p>
+        <p style="margin-bottom:0.75rem; color:#4a5568;">This section is structured and ready for your scanned or OCR-transcribed manuscript chunks.</p>
+        <p style="margin-bottom:0; color:#718096; font-size:0.9rem;">To populate: Add chunk files into your pipeline and run <code>python update_guide.py</code>.</p>
+      </div>
+    </div>
+  </div>
+</div>

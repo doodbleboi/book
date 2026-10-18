@@ -1,0 +1,34 @@
+<div class="timeline-container">
+  <h3>Historical Ledger: British Mining in Hidalgo, Mexican Modernity, and Gothic Contexts</h3>
+  <table class="matrix-table">
+    <thead>
+      <tr>
+        <th style="width: 15%;">Time Period</th>
+        <th style="width: 45%;">Historical Reality in Mexico & World Events</th>
+        <th style="width: 40%;">Connection to <em>Mexican Gothic</em></th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>1824–1850</strong></td>
+        <td>British Cornish miners arrive in Real del Monte and Pachuca, Hidalgo, bringing steam machinery to rehabilitate flooded silver mines, Cornish pasties, and British Victorian cemetery culture.</td>
+        <td>The historical foundation for the Doyle family empire: British aristocrats establishing isolated enclaves and Victorian estates in the mountains of Hidalgo.</td>
+      </tr>
+      <tr>
+        <td><strong>1880s–1910</strong></td>
+        <td>The Porfiriato era: President Porfirio Díaz encourages European investment, resulting in massive foreign ownership of rail, minerals, and land alongside pseudo-scientific European eugenics theories.</td>
+        <td>Howard Doyle arrives during this era, bringing European eugenics dogmas and exploiting local Mexican laborers in the silver mines until epidemics close them down.</td>
+      </tr>
+      <tr>
+        <td><strong>1910–1920</strong></td>
+        <td>The Mexican Revolution: Armed uprising overthrows the Porfiriato, expropriating foreign monopolies and asserting indigenous and national land rights.</td>
+        <td>High Place becomes an isolated, declining ruin as revolutionary upheaval severs the Doyles' economic dominance over the region.</td>
+      </tr>
+      <tr>
+        <td><strong>1950</strong></td>
+        <td>The Mexican Miracle (*El Milagro Mexicano*): Mexico City experiences rapid industrialization, artistic renaissance, cosmopolitan university life, and female emancipation.</td>
+        <td>The setting for Noemí's world: chic cocktail parties, automobiles, fashion, and modern anthropology contrasting with the mold-rotted stagnation of High Place.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
