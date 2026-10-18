@@ -1,0 +1,4 @@
+
+ocr_pipeline/input_pages/
+ocr_pipeline/output_chunks/
+*.env
