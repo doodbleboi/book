@@ -2,31 +2,46 @@
   <div class="dossier-card">
     <h4>Anna Klein</h4>
     <span class="dossier-badge">Protagonist / Translator</span>
-    <p>Austrian refugee from Thuringia. Former art gallery apprentice in Salzburg. Hides her husband Thomas's communist affiliations while navigating survival under U.S. occupation.</p>
+    <p>Austrian refugee from Kappellendorf, Thuringia. Former Salzburg art apprentice. Navigates extreme trauma, single motherhood, and military bureaucracy. Evolves from passive survivalist to active truth-teller, refusing to return to her communist husband in the Soviet zone to secure a free future for Amalia and Oskar.</p>
   </div>
   <div class="dossier-card">
-    <h4>Captain Henry Cooper</h4>
+    <h4>Captain Henry "Coop" Cooper</h4>
     <span class="dossier-badge">MFAA Arts Officer</span>
-    <p>Architect from Iowa. Idealistic Monuments Man determined to return stolen German cultural heritage. Operates outside rigid military bureaucracy, placing him under USFET investigation.</p>
+    <p>Architect from Iowa. Idealistic, driven Monuments Man who prioritizes returning looted cultural treasures over careerist military protocol. Despite disciplinary demotion to Erbenheim airfield, his partnership with Anna exposes high-level corruption and recovers the stolen Runge masterwork.</p>
   </div>
   <div class="dossier-card">
     <h4>Amalia Klein</h4>
-    <span class="dossier-badge">Civilian Dependent</span>
-    <p>Anna's 6-year-old daughter. Forms an immediate bond with Captain Cooper and treasures her copy of <em>The Snow Queen</em>, her button necklace, and her emergency house key.</p>
+    <span class="dossier-badge">Anna's 6-Year-Old Daughter</span>
+    <p>The emotional anchor of the novel. Treasures her copy of <em>The Snow Queen</em>, her found button necklace, and her emergency key. Unwittingly uncovers Frieda's SS past by discovering the hidden lightning-bolt pin, catalyzing the family's deliverance.</p>
   </div>
   <div class="dossier-card">
     <h4>Oskar Grünewald</h4>
-    <span class="dossier-badge">Displaced Minor</span>
-    <p>Traumatized 8-year-old orphan found guarding the Dotzheim villa repository. Survivor of the Sept 1944 Darmstadt bombing; documented as an SS Lebensborn adoptee from Steinhöring.</p>
+    <span class="dossier-badge">Displaced Minor / Key Witness</span>
+    <p>Traumatized 8-year-old orphan and SS Lebensborn adoptee. Survived the Darmstadt bombing that killed his adoptive mother Magda. Forced by his corrupt uncle Gerhart Heinrich to guard looted art at the villa, he ultimately finds salvation and a real family with Anna and Amalia.</p>
   </div>
   <div class="dossier-card">
-    <h4>Ludwig Schneider & Konrad Schenk</h4>
-    <span class="dossier-badge">Antagonists / Black Market</span>
-    <p>Former SA appraiser and his connected restorer partner. Exploit wartime property transfers, illicit black-market art dealing, and connections to USFET officers in Frankfurt.</p>
+    <h4>Gerhart Heinrich ("Konrad Schenk")</h4>
+    <span class="dossier-badge">Primary Antagonist</span>
+    <p>Former owner of Galerie Neustadt in Mainz and notorious ERR art looter. Faked his death to operate under the alias "Konrad Schenk." Exploited his sister Magda's death, abandoned young Oskar, and bribed USFET Major Phillips to whitewash his syndicate before being unmasked by Anna's evidence.</p>
   </div>
   <div class="dossier-card">
-    <h4>Emil & Frieda Schilling</h4>
-    <span class="dossier-badge">Key Secondary Contacts</span>
-    <p>Wiesbaden locals. Frieda operates an informal daycare for CCP workers; Emil, a severely traumatized Stalingrad veteran with frostbitten hands, conceals erratic wartime guilt.</p>
+    <h4>Ludwig Schneider</h4>
+    <span class="dossier-badge">Collaborator / Black Market Dealer</span>
+    <p>Former SA appraiser who seized Jewish property in Frankfurt. Partnered with Heinrich to strip original gallery labels and claim the Dotzheim villa repository as his late wife's estate. Arrested inside the CCP workshop following Anna's photographic proof.</p>
+  </div>
+  <div class="dossier-card">
+    <h4>Emil Schilling</h4>
+    <span class="dossier-badge">Tragic Anti-Hero</span>
+    <p>Decorated Wehrmacht veteran crippled by frostbite and haunting memories of Einsatzgruppen atrocities in Ukraine. Stole the Runge painting to preserve its true Jewish provenance. Following a violent confrontation with his fanatic sister Frieda, he hangs himself in jail, leaving Anna the hidden photographic key to the entire case.</p>
+  </div>
+  <div class="dossier-card">
+    <h4>Frieda Schilling</h4>
+    <span class="dossier-badge">Antagonist / Lebensborn Nurse</span>
+    <p>Emil's sister. Operated an informal daycare while hiding her active past as an SS <em>Helferin</em> and Lebensborn breeder at the Dotzheim villa. Remained an unrepentant Nazi, aiding Heinrich's syndicate until being critically wounded by Emil with a silver letter opener.</p>
+  </div>
+  <div class="dossier-card">
+    <h4>Thomas Klein</h4>
+    <span class="dossier-badge">Anna's Husband</span>
+    <p>Idealistic doctor who endured Gestapo torture before enthusiastically embracing the Soviet occupation in Kappellendorf. Appointed hospital director by the Soviet Kommandant, his letters reveal he has chosen ideological subservience over his family, cementing Anna's decision to sever ties.</p>
   </div>
 </div>
