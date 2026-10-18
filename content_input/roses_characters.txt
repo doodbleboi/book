@@ -1,0 +1,32 @@
+﻿<div class="dossier-grid">
+  <div class="dossier-card">
+    <h4>Anna Klein</h4>
+    <span class="dossier-badge">Protagonist / Translator</span>
+    <p>Austrian refugee from Thuringia. Former art gallery apprentice in Salzburg. Hides her husband Thomas's communist affiliations while navigating survival under U.S. occupation.</p>
+  </div>
+  <div class="dossier-card">
+    <h4>Captain Henry Cooper</h4>
+    <span class="dossier-badge">MFAA Arts Officer</span>
+    <p>Architect from Iowa. Idealistic Monuments Man determined to return stolen German cultural heritage. Operates outside rigid military bureaucracy, placing him under USFET investigation.</p>
+  </div>
+  <div class="dossier-card">
+    <h4>Amalia Klein</h4>
+    <span class="dossier-badge">Civilian Dependent</span>
+    <p>Anna's 6-year-old daughter. Forms an immediate bond with Captain Cooper and treasures her copy of <em>The Snow Queen</em>, her button necklace, and her emergency house key.</p>
+  </div>
+  <div class="dossier-card">
+    <h4>Oskar Grünewald</h4>
+    <span class="dossier-badge">Displaced Minor</span>
+    <p>Traumatized 8-year-old orphan found guarding the Dotzheim villa repository. Survivor of the Sept 1944 Darmstadt bombing; documented as an SS Lebensborn adoptee from Steinhöring.</p>
+  </div>
+  <div class="dossier-card">
+    <h4>Ludwig Schneider & Konrad Schenk</h4>
+    <span class="dossier-badge">Antagonists / Black Market</span>
+    <p>Former SA appraiser and his connected restorer partner. Exploit wartime property transfers, illicit black-market art dealing, and connections to USFET officers in Frankfurt.</p>
+  </div>
+  <div class="dossier-card">
+    <h4>Emil & Frieda Schilling</h4>
+    <span class="dossier-badge">Key Secondary Contacts</span>
+    <p>Wiesbaden locals. Frieda operates an informal daycare for CCP workers; Emil, a severely traumatized Stalingrad veteran with frostbitten hands, conceals erratic wartime guilt.</p>
+  </div>
+</div>
