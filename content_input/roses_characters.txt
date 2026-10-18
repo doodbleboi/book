@@ -2,7 +2,7 @@
   <div class="dossier-card">
     <h4>Anna Klein</h4>
     <span class="dossier-badge">Protagonist / Translator</span>
-    <p>Austrian refugee from Kappellendorf, Thuringia. Former Salzburg art apprentice. Navigates extreme trauma, single motherhood, and military bureaucracy. Evolves from passive survivalist to active truth-teller, refusing to return to her communist husband in the Soviet zone to secure a free future for Amalia and Oskar.</p>
+    <p>Austrian refugee from Kappellendorf, Thuringia. Former Salzburg art apprentice. Navigates extreme trauma, single motherhood, and military bureaucracy. Evolves from passive survivalist to active investigator, refusing to return to her communist husband in the Soviet zone to secure a free future for Amalia and Oskar.</p>
   </div>
   <div class="dossier-card">
     <h4>Captain Henry "Coop" Cooper</h4>
