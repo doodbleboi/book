@@ -647,6 +647,7 @@
                 <button class="sub-nav-btn" onclick="activateContentZone('gothic', 'summary')">Summary Matrix</button>
                 <button class="sub-nav-btn" onclick="activateContentZone('gothic', 'characters')">Character Dossiers</button>
                 <button class="sub-nav-btn" onclick="activateContentZone('gothic', 'timeline')">Historical Ledger</button>
+          <button class="sub-nav-btn" onclick="activateContentZone('gothic', 'gothic_full_text')">Full Text</button>
             </nav>
 
             <section id="panel-gothic-questions" class="content-panel active">
@@ -4813,61 +4814,89 @@
             });
         }
     </script>
-<script>/* roses_full_text click patch */
-// Tab click compatibility patch
-document.addEventListener('DOMContentLoaded', function() {
-    var ftBtn = Array.from(document.querySelectorAll('button')).find(b => b.textContent.trim() === 'Full Text');
-    if (ftBtn) {
-        ftBtn.addEventListener('click', function() {
-            var allRosesTabs = document.querySelectorAll('#roses_summary, #roses_characters, #roses_questions, #roses_timeline, #roses_full_text, [id^="roses_"]');
-            allRosesTabs.forEach(function(el) { el.style.display = 'none'; el.classList.remove('active'); });
-            var target = document.getElementById('roses_full_text');
-            if (target) {
-                target.style.display = 'block';
-                target.classList.add('active');
-            }
-        });
-    }
-});
-</script>
 <script>
+/* Master Book Portal Controller */
+function switchBook(book) {
+    // 1. Toggle main book buttons
+    var rosesMainBtn = Array.from(document.querySelectorAll('button')).find(b => b.textContent.trim() === 'The Roses Underneath');
+    var gothicMainBtn = Array.from(document.querySelectorAll('button')).find(b => b.textContent.trim() === 'Mexican Gothic');
+    
+    // 2. Hide ALL sub-containers from BOTH books
+    document.querySelectorAll('#roses_summary, #roses_characters, #roses_questions, #roses_timeline, #roses_full_text, [id^="roses_"]').forEach(function(el) {
+        el.style.display = 'none';
+        el.classList.remove('active');
+    });
+    document.querySelectorAll('#gothic_summary, #gothic_characters, #gothic_questions, #gothic_timeline, #gothic_full_text, [id^="gothic_"]').forEach(function(el) {
+        el.style.display = 'none';
+        el.classList.remove('active');
+    });
+    
+    // 3. Toggle main container visibility if sections exist
+    var rosesSection = document.getElementById('roses-section') || document.getElementById('roses');
+    var gothicSection = document.getElementById('gothic-section') || document.getElementById('gothic');
+    if (rosesSection && gothicSection) {
+        if (book === 'roses') {
+            rosesSection.style.display = 'block';
+            gothicSection.style.display = 'none';
+        } else {
+            rosesSection.style.display = 'none';
+            gothicSection.style.display = 'block';
+        }
+    }
+}
 
-/* Book Portal Direct Tab Handlers */
+// Sub-Tab Click Router
 document.addEventListener('DOMContentLoaded', function() {
-    function setupTabs(btnText, targetId, prefix) {
-        var buttons = Array.from(document.querySelectorAll('button')).filter(b => b.textContent.trim() === btnText);
-        buttons.forEach(function(btn) {
+    // Intercept main book tabs
+    document.querySelectorAll('button').forEach(function(btn) {
+        var text = btn.textContent.trim();
+        if (text === 'The Roses Underneath') {
+            btn.addEventListener('click', function() {
+                // Ensure all gothic tabs are completely hidden
+                document.querySelectorAll('[id^="gothic_"]').forEach(function(el) { el.style.display = 'none'; el.classList.remove('active'); });
+            });
+        } else if (text === 'Mexican Gothic') {
+            btn.addEventListener('click', function() {
+                // Ensure all roses tabs (including full text) are completely hidden
+                document.querySelectorAll('[id^="roses_"]').forEach(function(el) { el.style.display = 'none'; el.classList.remove('active'); });
+            });
+        }
+    });
+
+    // Wire every sub-nav button deterministically
+    var tabMap = [
+        { label: 'Summary Matrix', roses: 'roses_summary', gothic: 'gothic_summary' },
+        { label: 'Character Dossiers', roses: 'roses_characters', gothic: 'gothic_characters' },
+        { label: 'Discussion Questions', roses: 'roses_questions', gothic: 'gothic_questions' },
+        { label: 'Historical Ledger', roses: 'roses_timeline', gothic: 'gothic_timeline' },
+        { label: 'Full Text', roses: 'roses_full_text', gothic: 'gothic_full_text' }
+    ];
+
+    tabMap.forEach(function(item) {
+        var btns = Array.from(document.querySelectorAll('button')).filter(b => b.textContent.trim() === item.label);
+        btns.forEach(function(btn) {
             btn.addEventListener('click', function(e) {
-                var parentSection = btn.closest('[id*="roses"], [id*="gothic"], .book-section, section, div');
-                var isGothic = btn.getAttribute('onclick') && btn.getAttribute('onclick').includes('gothic');
+                var isGothic = (btn.getAttribute('onclick') && btn.getAttribute('onclick').includes('gothic')) ||
+                               (btn.closest('#gothic-section, #gothic, .gothic') !== null);
                 var activePrefix = isGothic ? 'gothic_' : 'roses_';
+                var targetId = isGothic ? item.gothic : item.roses;
+
+                // Hide all sibling sub-tabs under this book
+                document.querySelectorAll('[id^="' + activePrefix + '"]').forEach(function(el) {
+                    el.style.display = 'none';
+                    el.classList.remove('active');
+                });
                 
-                if (targetId.startsWith(activePrefix)) {
-                    document.querySelectorAll('[id^="' + activePrefix + '"]').forEach(function(el) {
-                        el.style.display = 'none';
-                        el.classList.remove('active');
-                    });
-                    var target = document.getElementById(targetId);
-                    if (target) {
-                        target.style.display = 'block';
-                        target.classList.add('active');
-                    }
+                // Show selected tab container
+                var target = document.getElementById(targetId);
+                if (target) {
+                    target.style.display = 'block';
+                    target.classList.add('active');
                 }
             });
         });
-    }
-    setupTabs('Full Text', 'roses_full_text', 'roses_');
-    setupTabs('Full Text', 'gothic_full_text', 'gothic_');
-    setupTabs('Historical Ledger', 'roses_timeline', 'roses_');
-    setupTabs('Historical Ledger', 'gothic_timeline', 'gothic_');
-    setupTabs('Discussion Questions', 'roses_questions', 'roses_');
-    setupTabs('Discussion Questions', 'gothic_questions', 'gothic_');
-    setupTabs('Summary Matrix', 'roses_summary', 'roses_');
-    setupTabs('Summary Matrix', 'gothic_summary', 'gothic_');
-    setupTabs('Character Dossiers', 'roses_characters', 'roses_');
-    setupTabs('Character Dossiers', 'gothic_characters', 'gothic_');
+    });
 });
-
 </script>
 </body>
 </html>
