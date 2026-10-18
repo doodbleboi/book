@@ -1,0 +1,109 @@
+﻿<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Literary Study Guide Portal</title>
+    <style>
+        :root { --bg: #f8fafc; --text: #0f172a; --card: #ffffff; --border: #e2e8f0; --accent: #0284c7; }
+        [data-theme="dark"] { --bg: #0b0f19; --text: #f1f5f9; --card: #111827; --border: #1f2937; --accent: #38bdf8; }
+        body { font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); padding: 20px; max-width: 1000px; margin: 0 auto; }
+        header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--border); padding-bottom: 12px; margin-bottom: 20px; }
+        .theme-btn { padding: 8px 14px; border-radius: 6px; cursor: pointer; border: 1px solid var(--border); background: var(--card); color: var(--text); }
+        .search-box { width: 100%; padding: 12px; font-size: 1rem; border: 2px solid var(--border); border-radius: 6px; margin-bottom: 20px; box-sizing: border-box; }
+        .tabs { display: flex; gap: 10px; margin-bottom: 15px; }
+        .tab { padding: 10px 18px; border: 2px solid var(--border); background: var(--card); color: var(--text); cursor: pointer; border-radius: 6px; font-weight: bold; }
+        .tab.active { border-color: var(--accent); color: var(--accent); }
+        .deck { display: none; }
+        .deck.active { display: block; }
+        .card { background: var(--card); border: 1px solid var(--border); padding: 20px; border-radius: 8px; margin-bottom: 15px; }
+        .search-hide { display: none !important; }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Study Guide Portal</h1>
+        <button class="theme-btn" onclick="toggleTheme()">Toggle Theme</button>
+    </header>
+
+    <input type="text" id="filter" class="search-box" placeholder="Filter content..." onkeyup="runFilter()">
+
+    <div class="tabs">
+        <button id="t-roses" class="tab active" onclick="showDeck('roses')">The Roses Underneath</button>
+        <button id="t-gothic" class="tab" onclick="showDeck('gothic')">Mexican Gothic</button>
+    </div>
+
+    <div id="deck-roses" class="deck active">
+        <div class="card target-item">
+            <h3>Discussion Questions</h3>
+            <!-- FLAG_START: roses_questions -->
+            <!-- FLAG_END: roses_questions -->
+        </div>
+        <div class="card target-item">
+            <h3>Summary Matrix</h3>
+            <!-- FLAG_START: roses_summary -->
+            <!-- FLAG_END: roses_summary -->
+        </div>
+        <div class="card target-item">
+            <h3>Character Dossiers</h3>
+            <!-- FLAG_START: roses_characters -->
+            <!-- FLAG_END: roses_characters -->
+        </div>
+        <div class="card target-item">
+            <h3>Historical Timeline</h3>
+            <!-- FLAG_START: roses_timeline -->
+            <!-- FLAG_END: roses_timeline -->
+        </div>
+    </div>
+
+    <div id="deck-gothic" class="deck">
+        <div class="card target-item">
+            <h3>Discussion Questions</h3>
+            <!-- FLAG_START: gothic_questions -->
+            <!-- FLAG_END: gothic_questions -->
+        </div>
+        <div class="card target-item">
+            <h3>Summary Matrix</h3>
+            <!-- FLAG_START: gothic_summary -->
+            <!-- FLAG_END: gothic_summary -->
+        </div>
+        <div class="card target-item">
+            <h3>Character Dossiers</h3>
+            <!-- FLAG_START: gothic_characters -->
+
+<!-- FLAG_END: gothic_characters -->
+        </div>
+        <div class="card target-item">
+            <h3>Historical Timeline</h3>
+            <!-- FLAG_START: gothic_timeline -->
+            <!-- FLAG_END: gothic_timeline -->
+        </div>
+    </div>
+
+    <script>
+        function toggleTheme() {
+            const root = document.documentElement;
+            const next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
+            root.setAttribute('data-theme', next);
+            localStorage.setItem('theme', next);
+        }
+        (function() {
+            document.documentElement.setAttribute('data-theme', localStorage.getItem('theme') || 'light');
+        })();
+
+        function showDeck(key) {
+            document.querySelectorAll('.deck').forEach(d => d.classList.remove('active'));
+            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
+            document.getElementById('deck-' + key).classList.add('active');
+            document.getElementById('t-' + key).classList.add('active');
+        }
+
+        function runFilter() {
+            const q = document.getElementById('filter').value.toLowerCase();
+            document.querySelectorAll('.target-item').forEach(el => {
+                el.classList.toggle('search-hide', q !== '' && !el.innerText.toLowerCase().includes(q));
+            });
+        }
+    </script>
+</body>
+</html>
