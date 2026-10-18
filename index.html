@@ -3,105 +3,478 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Literary Study Guide Portal</title>
+    <title>Book Club Books</title>
+
+    <!-- 1. Inline Ghost Favicon (Displays 👻 in browser tab) -->
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>👻</text></svg>">
+
+    <!-- 2. Search & Social Card Preview Tags (Open Graph / Twitter) -->
+    <meta property="og:title" content="Book Club Books">
+    <meta property="og:description" content="Interactive study guide portal for The Roses Underneath and Mexican Gothic. Character dossiers, chapter matrices, and historical timelines.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://jeckyllope.duckdns.org/">
+    <meta property="og:image" content="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1200&h=630&q=80">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Book Club Books">
+    <meta name="twitter:description" content="Interactive study guide portal for The Roses Underneath and Mexican Gothic.">
+    <meta name="twitter:image" content="https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1200&h=630&q=80">
+
     <style>
-        :root { --bg: #f8fafc; --text: #0f172a; --card: #ffffff; --border: #e2e8f0; --accent: #0284c7; }
-        [data-theme="dark"] { --bg: #0b0f19; --text: #f1f5f9; --card: #111827; --border: #1f2937; --accent: #38bdf8; }
-        body { font-family: system-ui, sans-serif; background: var(--bg); color: var(--text); padding: 20px; max-width: 1000px; margin: 0 auto; }
-        header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid var(--border); padding-bottom: 12px; margin-bottom: 20px; }
-        .theme-btn { padding: 8px 14px; border-radius: 6px; cursor: pointer; border: 1px solid var(--border); background: var(--card); color: var(--text); }
-        .search-box { width: 100%; padding: 12px; font-size: 1rem; border: 2px solid var(--border); border-radius: 6px; margin-bottom: 20px; box-sizing: border-box; }
-        .tabs { display: flex; gap: 10px; margin-bottom: 15px; }
-        .tab { padding: 10px 18px; border: 2px solid var(--border); background: var(--card); color: var(--text); cursor: pointer; border-radius: 6px; font-weight: bold; }
-        .tab.active { border-color: var(--accent); color: var(--accent); }
-        .deck { display: none; }
-        .deck.active { display: block; }
-        .card { background: var(--card); border: 1px solid var(--border); padding: 20px; border-radius: 8px; margin-bottom: 15px; }
-        .search-hide { display: none !important; }
+        :root {
+            --bg-color: #f8fafc;
+            --text-color: #0f172a;
+            --card-bg: #ffffff;
+            --card-border: #e2e8f0;
+            --primary-accent: #1e3a8a;
+            --secondary-accent: #0284c7;
+            --highlight: #f0f9ff;
+            --subnav-bg: #e2e8f0;
+            --subnav-active: #ffffff;
+            --badge-bg: #f1f5f9;
+            --badge-text: #475569;
+            --timeline-spine: #cbd5e1;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.08);
+        }
+
+        [data-theme="dark"] {
+            --bg-color: #0b0f19;
+            --text-color: #f1f5f9;
+            --card-bg: #111827;
+            --card-border: #1f2937;
+            --primary-accent: #38bdf8;
+            --secondary-accent: #7dd3fc;
+            --highlight: #172554;
+            --subnav-bg: #1f2937;
+            --subnav-active: #111827;
+            --badge-bg: #1e293b;
+            --badge-text: #94a3b8;
+            --timeline-spine: #374151;
+            --shadow-sm: 0 1px 3px rgba(0,0,0,0.4);
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            transition: background-color 0.2s ease, border-color 0.2s ease, color 0.2s ease;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            padding: 24px;
+        }
+
+        .portal-wrapper {
+            max-width: 1050px;
+            margin: 0 auto;
+        }
+
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-bottom: 20px;
+            margin-bottom: 24px;
+            border-bottom: 2px solid var(--card-border);
+        }
+
+        .header-title-block h1 {
+            font-size: 2.1rem;
+            letter-spacing: -0.025em;
+            color: var(--primary-accent);
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .header-title-block p {
+            font-size: 0.95rem;
+            color: var(--badge-text);
+            margin-top: 4px;
+        }
+
+        .theme-toggle-btn {
+            background-color: var(--card-bg);
+            border: 1px solid var(--card-border);
+            color: var(--text-color);
+            padding: 8px 16px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 0.875rem;
+            font-weight: 600;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .theme-toggle-btn:hover {
+            border-color: var(--secondary-accent);
+        }
+
+        .search-engine-wrapper {
+            margin-bottom: 24px;
+        }
+
+        .global-search-input {
+            width: 100%;
+            padding: 14px 18px;
+            font-size: 1rem;
+            border: 2px solid var(--card-border);
+            border-radius: 8px;
+            background-color: var(--card-bg);
+            color: var(--text-color);
+            box-shadow: var(--shadow-sm);
+            outline: none;
+        }
+
+        .global-search-input:focus {
+            border-color: var(--secondary-accent);
+            box-shadow: 0 0 0 3px rgba(2, 132, 199, 0.15);
+        }
+
+        .primary-nav {
+            display: flex;
+            gap: 12px;
+            margin-bottom: 16px;
+        }
+
+        .book-selector-btn {
+            flex: 1;
+            padding: 14px 20px;
+            background-color: var(--card-bg);
+            color: var(--text-color);
+            border: 2px solid var(--card-border);
+            border-radius: 8px;
+            font-size: 1.05rem;
+            font-weight: 700;
+            cursor: pointer;
+            box-shadow: var(--shadow-sm);
+            text-align: center;
+        }
+
+        .book-selector-btn.active {
+            border-color: var(--primary-accent);
+            background-color: var(--highlight);
+            color: var(--primary-accent);
+        }
+
+        .sub-nav {
+            display: flex;
+            gap: 6px;
+            background-color: var(--subnav-bg);
+            padding: 6px;
+            border-radius: 8px;
+            margin-bottom: 24px;
+            flex-wrap: wrap;
+        }
+
+        .sub-nav-btn {
+            flex: 1;
+            min-width: 140px;
+            padding: 10px 14px;
+            border: none;
+            background: transparent;
+            color: var(--text-color);
+            font-size: 0.85rem;
+            font-weight: 600;
+            border-radius: 6px;
+            cursor: pointer;
+            text-align: center;
+        }
+
+        .sub-nav-btn.active {
+            background-color: var(--subnav-active);
+            color: var(--primary-accent);
+            box-shadow: var(--shadow-sm);
+        }
+
+        .book-deck {
+            display: none;
+        }
+
+        .book-deck.active {
+            display: block;
+        }
+
+        .content-panel {
+            display: none;
+        }
+
+        .content-panel.active {
+            display: block;
+        }
+
+        .content-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 8px;
+            padding: 24px;
+            margin-bottom: 16px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .content-card h3 {
+            font-size: 1.25rem;
+            margin-bottom: 16px;
+            color: var(--primary-accent);
+            border-bottom: 1px solid var(--card-border);
+            padding-bottom: 8px;
+        }
+
+        .question-list {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+        }
+
+        .question-list li {
+            padding: 14px 18px;
+            background-color: var(--highlight);
+            border-left: 4px solid var(--secondary-accent);
+            border-radius: 0 6px 6px 0;
+            font-size: 0.95rem;
+        }
+
+        .dossier-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 16px;
+        }
+
+        .dossier-card {
+            background-color: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 6px;
+            padding: 16px;
+            box-shadow: var(--shadow-sm);
+        }
+
+        .dossier-card h4 {
+            color: var(--primary-accent);
+            font-size: 1.1rem;
+            margin-bottom: 6px;
+        }
+
+        .dossier-badge {
+            display: inline-block;
+            background-color: var(--badge-bg);
+            color: var(--badge-text);
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 2px 8px;
+            border-radius: 4px;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        .dual-timeline {
+            display: flex;
+            flex-direction: column;
+            gap: 16px;
+        }
+
+        .timeline-row {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            padding: 16px;
+            background-color: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 6px;
+        }
+
+        .timeline-col-history {
+            border-right: 2px solid var(--timeline-spine);
+            padding-right: 20px;
+        }
+
+        .timeline-header {
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: var(--secondary-accent);
+            margin-bottom: 6px;
+        }
+
+        .matrix-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.9rem;
+        }
+
+        .matrix-table th, .matrix-table td {
+            padding: 12px 14px;
+            border: 1px solid var(--card-border);
+            text-align: left;
+        }
+
+        .matrix-table th {
+            background-color: var(--subnav-bg);
+            font-weight: 700;
+        }
+
+        .search-filtered-out {
+            display: none !important;
+        }
+
+        @media (max-width: 768px) {
+            .timeline-row {
+                grid-template-columns: 1fr;
+                gap: 12px;
+            }
+            .timeline-col-history {
+                border-right: none;
+                border-bottom: 2px solid var(--timeline-spine);
+                padding-right: 0;
+                padding-bottom: 12px;
+            }
+        }
     </style>
 </head>
 <body>
-    <header>
-        <h1>Study Guide Portal</h1>
-        <button class="theme-btn" onclick="toggleTheme()">Toggle Theme</button>
-    </header>
+    <div class="portal-wrapper">
+        <header>
+            <div class="header-title-block">
+                <h1><span>👻</span> Book Club Books</h1>
+                <p>Curated Literary Study Portals & Historical Analysis</p>
+            </div>
+            <button class="theme-toggle-btn" onclick="toggleInterfaceTheme()">Theme: Switch Mode</button>
+        </header>
 
-    <input type="text" id="filter" class="search-box" placeholder="Filter content..." onkeyup="runFilter()">
+        <section class="search-engine-wrapper">
+            <input type="text" id="globalFilterInput" class="global-search-input" placeholder="Universal Real-Time Filter across all dossiers, timelines, and questions..." onkeyup="executeClientSideSearch()">
+        </section>
 
-    <div class="tabs">
-        <button id="t-roses" class="tab active" onclick="showDeck('roses')">The Roses Underneath</button>
-        <button id="t-gothic" class="tab" onclick="showDeck('gothic')">Mexican Gothic</button>
-    </div>
+        <nav class="primary-nav">
+            <button id="tab-btn-roses" class="book-selector-btn active" onclick="activateBookDeck('roses')">The Roses Underneath</button>
+            <button id="tab-btn-gothic" class="book-selector-btn" onclick="activateBookDeck('gothic')">Mexican Gothic</button>
+        </nav>
 
-    <div id="deck-roses" class="deck active">
-        <div class="card target-item">
-            <h3>Discussion Questions</h3>
-            <!-- FLAG_START: roses_questions -->
-            <!-- FLAG_END: roses_questions -->
-        </div>
-        <div class="card target-item">
-            <h3>Summary Matrix</h3>
-            <!-- FLAG_START: roses_summary -->
-            <!-- FLAG_END: roses_summary -->
-        </div>
-        <div class="card target-item">
-            <h3>Character Dossiers</h3>
-            <!-- FLAG_START: roses_characters -->
-            <!-- FLAG_END: roses_characters -->
-        </div>
-        <div class="card target-item">
-            <h3>Historical Timeline</h3>
-            <!-- FLAG_START: roses_timeline -->
-            <!-- FLAG_END: roses_timeline -->
-        </div>
-    </div>
+        <!-- BOOK DECK: THE ROSES UNDERNEATH -->
+        <main id="deck-roses" class="book-deck active">
+            <nav class="sub-nav">
+                <button class="sub-nav-btn active" onclick="activateContentZone('roses', 'questions')">Discussion Questions</button>
+                <button class="sub-nav-btn" onclick="activateContentZone('roses', 'summary')">Summary Matrix</button>
+                <button class="sub-nav-btn" onclick="activateContentZone('roses', 'characters')">Character Dossiers</button>
+                <button class="sub-nav-btn" onclick="activateContentZone('roses', 'timeline')">Historical Ledger</button>
+            </nav>
 
-    <div id="deck-gothic" class="deck">
-        <div class="card target-item">
-            <h3>Discussion Questions</h3>
-            <!-- FLAG_START: gothic_questions -->
-            <!-- FLAG_END: gothic_questions -->
-        </div>
-        <div class="card target-item">
-            <h3>Summary Matrix</h3>
-            <!-- FLAG_START: gothic_summary -->
-            <!-- FLAG_END: gothic_summary -->
-        </div>
-        <div class="card target-item">
-            <h3>Character Dossiers</h3>
-            <!-- FLAG_START: gothic_characters -->
+            <section id="panel-roses-questions" class="content-panel active">
+                <article class="content-card search-target">
+                    <h3>Provocative Discussion Questions</h3>
+                    <!-- FLAG_START: roses_questions -->
+                    <!-- FLAG_END: roses_questions -->
+                </article>
+            </section>
+
+            <section id="panel-roses-summary" class="content-panel">
+                <article class="content-card search-target">
+                    <h3>Chapter-by-Chapter Plot Matrix</h3>
+                    <!-- FLAG_START: roses_summary -->
+                    <!-- FLAG_END: roses_summary -->
+                </article>
+            </section>
+
+            <section id="panel-roses-characters" class="content-panel">
+                <article class="content-card search-target">
+                    <h3>Comprehensive Character Dossiers</h3>
+                    <!-- FLAG_START: roses_characters -->
+                    <!-- FLAG_END: roses_characters -->
+                </article>
+            </section>
+
+            <section id="panel-roses-timeline" class="content-panel">
+                <article class="content-card search-target">
+                    <h3>Historical Context & Timeline Ledger</h3>
+                    <!-- FLAG_START: roses_timeline -->
+                    <!-- FLAG_END: roses_timeline -->
+                </article>
+            </section>
+        </main>
+
+        <!-- BOOK DECK: MEXICAN GOTHIC -->
+        <main id="deck-gothic" class="book-deck">
+            <nav class="sub-nav">
+                <button class="sub-nav-btn active" onclick="activateContentZone('gothic', 'questions')">Discussion Questions</button>
+                <button class="sub-nav-btn" onclick="activateContentZone('gothic', 'summary')">Summary Matrix</button>
+                <button class="sub-nav-btn" onclick="activateContentZone('gothic', 'characters')">Character Dossiers</button>
+                <button class="sub-nav-btn" onclick="activateContentZone('gothic', 'timeline')">Historical Ledger</button>
+            </nav>
+
+            <section id="panel-gothic-questions" class="content-panel active">
+                <article class="content-card search-target">
+                    <h3>Provocative Discussion Questions</h3>
+                    <!-- FLAG_START: gothic_questions -->
+                    <!-- FLAG_END: gothic_questions -->
+                </article>
+            </section>
+
+            <section id="panel-gothic-summary" class="content-panel">
+                <article class="content-card search-target">
+                    <h3>Chapter-by-Chapter Plot Matrix</h3>
+                    <!-- FLAG_START: gothic_summary -->
+                    <!-- FLAG_END: gothic_summary -->
+                </article>
+            </section>
+
+            <section id="panel-gothic-characters" class="content-panel">
+                <article class="content-card search-target">
+                    <h3>Comprehensive Character Dossiers</h3>
+                    <!-- FLAG_START: gothic_characters -->
 
 <!-- FLAG_END: gothic_characters -->
-        </div>
-        <div class="card target-item">
-            <h3>Historical Timeline</h3>
-            <!-- FLAG_START: gothic_timeline -->
-            <!-- FLAG_END: gothic_timeline -->
-        </div>
+                </article>
+            </section>
+
+            <section id="panel-gothic-timeline" class="content-panel">
+                <article class="content-card search-target">
+                    <h3>Historical Context & Timeline Ledger</h3>
+                    <!-- FLAG_START: gothic_timeline -->
+                    <!-- FLAG_END: gothic_timeline -->
+                </article>
+            </section>
+        </main>
     </div>
 
     <script>
-        function toggleTheme() {
+        function toggleInterfaceTheme() {
             const root = document.documentElement;
-            const next = root.getAttribute('data-theme') === 'light' ? 'dark' : 'light';
-            root.setAttribute('data-theme', next);
-            localStorage.setItem('theme', next);
+            const current = root.getAttribute('data-theme');
+            const target = current === 'light' ? 'dark' : 'light';
+            root.setAttribute('data-theme', target);
+            localStorage.setItem('portal_theme_preference', target);
         }
+
         (function() {
-            document.documentElement.setAttribute('data-theme', localStorage.getItem('theme') || 'light');
+            const savedTheme = localStorage.getItem('portal_theme_preference') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
         })();
 
-        function showDeck(key) {
-            document.querySelectorAll('.deck').forEach(d => d.classList.remove('active'));
-            document.querySelectorAll('.tab').forEach(t => t.classList.remove('active'));
-            document.getElementById('deck-' + key).classList.add('active');
-            document.getElementById('t-' + key).classList.add('active');
+        function activateBookDeck(deckKey) {
+            document.querySelectorAll('.book-deck').forEach(el => el.classList.remove('active'));
+            document.querySelectorAll('.book-selector-btn').forEach(el => el.classList.remove('active'));
+            document.getElementById('deck-' + deckKey).classList.add('active');
+            document.getElementById('tab-btn-' + deckKey).classList.add('active');
         }
 
-        function runFilter() {
-            const q = document.getElementById('filter').value.toLowerCase();
-            document.querySelectorAll('.target-item').forEach(el => {
-                el.classList.toggle('search-hide', q !== '' && !el.innerText.toLowerCase().includes(q));
+        function activateContentZone(deckKey, zoneKey) {
+            const parentDeck = document.getElementById('deck-' + deckKey);
+            parentDeck.querySelectorAll('.content-panel').forEach(el => el.classList.remove('active'));
+            parentDeck.querySelectorAll('.sub-nav-btn').forEach(el => el.classList.remove('active'));
+            parentDeck.querySelector('#panel-' + deckKey + '-' + zoneKey).classList.add('active');
+            event.target.classList.add('active');
+        }
+
+        function executeClientSideSearch() {
+            const query = document.getElementById('globalFilterInput').value.trim().toLowerCase();
+            const targets = document.querySelectorAll('.search-target');
+
+            targets.forEach(target => {
+                const text = target.innerText.toLowerCase();
+                const matched = query === '' || text.includes(query);
+                target.classList.toggle('search-filtered-out', !matched);
             });
         }
     </script>
