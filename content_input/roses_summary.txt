@@ -2,50 +2,50 @@
   <thead>
     <tr>
       <th style="width: 20%;">Chapter Arc</th>
-      <th style="width: 45%;">Key Events & Unabridged Narrative Progression</th>
-      <th style="width: 35%;">Historical Realities & Thematic Revelations</th>
+      <th style="width: 45%;">Key Plot Events & Book Facts</th>
+      <th style="width: 35%;">Real History & Book Lore</th>
     </tr>
   </thead>
   <tbody>
     <tr>
       <td><strong>Chapters 1–5</strong><br>(pp. 1–40)</td>
-      <td>Anna Klein arrives in Wiesbaden with 6-year-old Amalia; leaves her on a courtyard bench to work in the typing pool. Captain Henry Cooper reprimands Anna but gifts Amalia <em>The Snow Queen</em>. Facing starvation and Auntie Madeleine's hospitalization at St. Josef's, Anna accepts childcare from Frieda Schilling, introduced by her shell-shocked veteran brother Emil.</td>
-      <td>Immediate post-war survival under Allied occupation; <em>Fragebogen</em> de-Nazification vetting; ration coupons, black markets, and provisional life in the Wiesbaden Central Collecting Point (CCP) at the Landesmuseum under Capt. Walter Farmer.</td>
+      <td>Anna Klein eats a spoonful of lard for breakfast and brushes her teeth with her finger. She cuts the toes off six-year-old Amalia's shoes so they still fit. Amalia finds a heart-shaped metal dirndl button in the street rubble on Adolfsallee. Anna leaves Amalia on a bench outside the Wiesbaden Landesmuseum to type custody forms. Captain Henry Cooper scolds Anna for leaving her child alone, but he gives Amalia a copy of <em>The Snow Queen</em>. Anna and Amalia eat salty beef bouillon in the Wilhelmstrasse mess hall. Amalia gets sunstroke on the bench. Plumber Emil Schilling introduces Anna to his sister Frieda, who offers childcare in exchange for food rations at their Gustav-Freytag-Strasse villa with hot apple strudel and Nescafé.</td>
+      <td>Immediate post-war survival; strict ration cards; de-Nazification questionnaires (<em>Fragebogen</em>); setting up the Wiesbaden Central Collecting Point (CCP) under Director Captain Walter Farmer.</td>
     </tr>
     <tr>
       <td><strong>Chapters 6–8</strong><br>(pp. 41–80)</td>
-      <td>Cooper drafts Anna as his site translator. Surveying an abandoned Dotzheim villa, they discover traumatized 8-year-old orphan Oskar Grünewald hiding in a wardrobe, alongside a secret basement repository containing Philipp Otto Runge's masterwork <em>The Hülsenbeck Children</em> bearing a "Galerie Breuer Darmstadt" label. Oskar is relocated to the UNRRA DP camp.</td>
-      <td>Monuments, Fine Arts, and Archives (MFAA) field surveys; military jurisdiction under Paragraph 51; UNRRA displaced persons management; mass displacement following the Sept 1944 firebombing of Darmstadt.</td>
+      <td>Captain Cooper drafts Anna as his translator for building surveys. They drive a jeep to an abandoned villa in Dotzheim. In an upstairs wardrobe, they find eight-year-old orphan Oskar Grünewald hiding with a pocket knife, bottle opener, and pencil. In the cellar, they find a secret stash of paintings. Anna identifies a large canvas by German Romantic Philipp Otto Runge (<em>The Hülsenbeck Children</em>) with a "Galerie Breuer Darmstadt" label. Cooper takes photos with his cracked Kodak camera. They take Oskar to the UNRRA DP camp, where refugee Maria Niemeyer promises to look after him.</td>
+      <td>Monuments, Fine Arts, and Archives (MFAA) field work; U.S. Military Government Paragraph 51 property protections; UNRRA displaced persons camps; the September 1944 firebombing of Darmstadt.</td>
     </tr>
     <tr>
       <td><strong>Chapters 9–12</strong><br>(pp. 81–120)</td>
-      <td>Opportunist dealer Ludwig Schneider seeks employment at the CCP backed by Major Phillips in Frankfurt; Cooper dismisses him. Cooper returns to the villa alone at night, is brutally ambushed, and his Colt .45 and the Runge painting are stolen. Cooper discovers Oskar was adopted via the SS <em>Lebensborn</em> program in Steinhöring, Bavaria.</td>
-      <td>The SS <em>Lebensborn</em> program (state-sponsored breeding and Aryanization); internal military tensions between field restitution officers and Frankfurt administrative brass; illicit trafficking of looted art.</td>
+      <td>Art dealer Ludwig Schneider brings a recommendation letter from Major Phillips in Frankfurt asking for a job at the CCP. Cooper refuses because Schneider was in the SA. Anna visits Auntie Madeleine at St. Josef's hospital and brings her an egg and quince jam. Madeleine gets discharged for talking back to the head nurse. At 4:15 AM, Cooper bangs on Anna's door covered in blood. Someone ambushed him in the villa basement, stole his Colt .45 pistol, and took the Runge painting. Cooper investigates Oskar's papers and finds out Oskar was adopted through the SS <em>Lebensborn</em> program in Steinhöring, Bavaria.</td>
+      <td>De-Nazification vetting of gallery dealers; the SS <em>Lebensborn</em> breeding program; black-market art trafficking; clashes between front-line MFAA officers and Frankfurt headquarters brass.</td>
     </tr>
     <tr>
       <td><strong>Chapters 13–15</strong><br>(pp. 121–160)</td>
-      <td>50 trucks arrive from the Merkers salt mine carrying Berlin State Museum treasures (Nefertiti, Rembrandt's <em>The Man with the Golden Helmet</em>). Anna tails Schneider to an apartment on Schwalbacher Str., discovering his partner "Konrad Schenk." Anna takes Oskar and Cooper on a Neroberg picnic, revealing her husband Thomas's communist militancy. Cooper proposes a sting operation to catch Schneider.</td>
-      <td>The Merkers mine discovery and transfer; ideological fractures between Western Allies and the Soviet zone; post-Potsdam civilian terror of communist repatriation; non-fraternization policy defiance.</td>
+      <td>Anna sees Schneider carrying a package on Schwalbacher Strasse and tails him to an apartment building with nameplates for Fromm, Schenk, and Knopf. On Saturday, Anna, Cooper, Amalia, and Oskar ride bikes to the Neroberg hill. They visit the Russian chapel and eat apples and Hershey bars. Anna confesses that her husband Thomas is a dedicated communist doctor in Thuringia. Cooper proposes a sting operation: Anna will offer a landscape painting to Schneider to catch him breaking Paragraph 51. Meanwhile, Oskar breaks down and tells Anna how his mother Magda died when their Darmstadt cellar collapsed during the 1944 bombing.</td>
+      <td>Arrival of Berlin museum treasures from the Merkers salt mine; civilian fear of Soviet zone repatriation; enforcement and defiance of military non-fraternization rules.</td>
     </tr>
     <tr>
       <td><strong>Chapters 16–18</strong><br>(pp. 161–200)</td>
-      <td>Anna is detained and interrogated at USFET HQ regarding Cooper's unauthorized actions. She attempts the sting at the Nassauer Hof with a bait landscape painting from the villa repository. "Schenk" intercepts her, identifies the painting as his own, exposes her cover, and threatens her family. Cooper fails to show after spotting Schneider's goon tailing her.</td>
-      <td>USFET military counter-intelligence and tribunal authority; criminal syndicate leverage over vulnerable refugees; black-market currency manipulation and falsified transit papers.</td>
+      <td>Two MPs arrest Anna at her apartment and take her to USFET headquarters for four hours of harsh questioning about Cooper's missing reports. The next evening, wearing Uncle Otto's old wool pants and wristwatch, Anna takes a Rhine landscape from the villa to the Nassauer Hof hotel. Schneider and his partner "Konrad Schenk" meet her in a bedroom. Schenk recognizes the painting instantly, exposes Anna's trap, and threatens her family. Cooper fails to show up because he saw Schneider's lookouts following Anna to the church. Schenk shoves Anna into the hallway, and she throws up on the hotel carpet.</td>
+      <td>USFET military tribunals; criminal networks operating out of luxury hotels like the Nassauer Hof; forged transit documents used for black-market border crossings.</td>
     </tr>
     <tr>
       <td><strong>Chapters 19–20</strong><br>(pp. 201–220)</td>
-      <td>Major Phillips relieves Cooper of CCP duty and reassigns him to counting supplies at Erbenheim airfield, clearing the way to hire Schneider. Schenk corners Anna, demanding $300 for Weimar-Wiesbaden travel papers while threatening to expose Thomas as a communist. Amalia invites Emil to dinner; Emil brings schnapps, provisions, and promises to protect Anna.</td>
-      <td>Military corruption and cronyism; black-market document forgery; psychological collapse of Wehrmacht survivors of Operation Barbarossa and Stalingrad.</td>
+      <td>Major Phillips comes to Wiesbaden, screams at Cooper for insubordination, and banishes him to count supplies at the Erbenheim airfield. Schneider takes over an office at the CCP. Frau Obersdorfer sends Anna back to the typing pool. Outside the museum fence, Schenk offers Anna unstamped travel papers from Weimar to Wiesbaden for $300, threatening to report Thomas as a communist if she refuses. Amalia invites Emil Schilling to dinner at Adolfsallee. Emil brings dark bread, cheese, and Nordhäuser schnapps, promising Anna he will protect her and Amalia from his sister.</td>
+      <td>Military corruption and favoritism; forged travel permits; deep trauma and alcoholism among Wehrmacht veterans who survived Operation Barbarossa and Stalingrad.</td>
     </tr>
     <tr>
       <td><strong>Chapters 21–22</strong><br>(pp. 221–240)</td>
-      <td>Anna intercepts a call to Phillips' office seeking an appraisal for the Runge painting. Sneaking a jeep, Anna visits the DP camp, discovering Oskar fled after an "uncle" visited. At the villa, Anna finds $300 in US cash hidden in the wardrobe and is assaulted by corrupt Corporal Miller. Anna flees to Cooper and Bender at the airfield. Meanwhile, Amalia finds Frieda's SS <em>Helferin</em> lightning-bolt pin; Emil confronts Frieda with Cooper's stolen gun, and Anna arrives just in time to rescue Amalia.</td>
-      <td>Illicit soldier racketeering; institutional complicity of SS auxiliary women (<em>SS-Helferinnen</em>); desperate grassroots investigative work to counteract official military obstruction.</td>
+      <td>Anna sneaks into the file room and intercepts a phone call from Major Phillips' secretary, who needs an appraiser for a large painting of a girl on a chair with a torn Darmstadt label (the Runge). Anna steals an Army jeep from the museum courtyard, drives to the DP camp, and finds out Oskar ran away. At the Dotzheim villa, Anna finds $300 in cash hidden in the wardrobe, but corrupt Corporal Miller catches her and tears her blouse. Anna flees to Cooper and Corporal Bender at the airfield. Meanwhile, Amalia finds an SS <em>Helferin</em> lightning-bolt pin in a toy trunk. Frieda hits Amalia, Emil pulls Cooper's stolen gun on Frieda, and Anna arrives just in time to rescue Amalia.</td>
+      <td>Military supply graft; complicity of female SS auxiliaries (<em>SS-Helferinnen</em>); underground childcare dangers in bombed cities.</td>
     </tr>
     <tr>
       <td><strong>Chapters 23–25</strong><br>(pp. 241–297)</td>
-      <td>Anna is dismissed at a formal tribunal when Phillips and "Schenk" collude against her. Visiting Albrechtstrasse jail, Anna learns Emil hanged himself in his cell; he leaves her his Rhine landscape. Anna discovers Cooper's developed camera photo taped behind the canvas stretcher. Oskar reveals "Schenk" is actually his uncle, master looter Gerhart Heinrich of Galerie Neustadt, and Magda painted the landscapes. Anna presents the evidence to Director Farmer; Schneider and Heinrich are arrested. Cooper shows the children Nefertiti in secret. Thomas writes demanding Anna return to the Soviet zone, but Anna chooses freedom, staying in Wiesbaden with Amalia and taking custody of Oskar.</td>
-      <td>Complete unraveling of the Heinrich/Schneider art conspiracy; restitution of family heritage; personal liberation and moral awakening under post-war reconstruction; the definitive choice of Western democratic freedom over totalitarianism.</td>
+      <td>A formal military hearing dismisses Anna when Phillips and Schenk collude against her. At the Albrechtstrasse jail, a guard tells Anna that Emil hanged himself in his cell using his torn shirt. Emil leaves Anna his Rhine landscape painting. Anna pulls off tape on the canvas stretcher and finds Cooper's developed camera photo of the Runge painting with "Good luck, Anna" written on the back. Oskar reveals that Schenk is actually his uncle, master Nazi art looter Gerhart Heinrich of Galerie Neustadt, and that Oskar's mother Magda painted the landscapes. Anna brings the proof to Director Farmer. The MPs arrest Schneider in the workshop, Heinrich is exposed, and Miller's bribes are halted. Cooper sneaks Anna, Amalia, and Oskar in to see the bust of Queen Nefertiti. Thomas writes asking Anna to join him in the Soviet zone, but Anna refuses. Promoted to a Level-Two government worker with housing assistance, Anna chooses to stay in Wiesbaden with Amalia and adopt Oskar.</td>
+      <td>Full exposure of the Heinrich and Schneider art theft ring; genuine family restitution; moral independence under Western Allied occupation; rejecting Soviet totalitarianism to protect a child's future.</td>
     </tr>
   </tbody>
 </table>
