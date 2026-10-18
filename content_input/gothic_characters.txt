@@ -1,42 +1,42 @@
-<div class="dossier-grid">
+﻿<div class="dossier-grid">
   <div class="dossier-card">
     <h4>Noemí Taboada</h4>
     <span class="dossier-badge">Protagonist</span>
-    <p>A smart, glamorous 22-year-old socialite and anthropology student from Mexico City. Beneath her party-girl reputation lies keen intellect, resilience, and unshakeable courage when confronting the horrors of High Place.</p>
+    <p>A smart, elegant 22-year-old socialite and anthropology student from Mexico City. She loves stylish dresses, driving her convertible, and smoking cigarettes. While her father views her as a party girl, her sharp mind, bravery, and stubborn independence make her the ultimate threat to the Doyle family's patriarchal control.</p>
   </div>
   <div class="dossier-card">
     <h4>Catalina Sandoval Doyle</h4>
     <span class="dossier-badge">The Imperiled Cousin</span>
-    <p>Noemí's gentle, romantic cousin whose desperate, erratic letter initiates the rescue mission. Trapped in a deteriorating marriage to Virgil Doyle and subdued by mysterious illnesses and fungal hallucinations.</p>
+    <p>Noemí's gentle, orphaned cousin whose frantic letter sets the story in motion. Swept into a whirlwind romance with Virgil Doyle, she finds herself trapped at High Place, drugged by the family physician, and fighting for her sanity against the fungal whispers in the walls.</p>
   </div>
   <div class="dossier-card">
     <h4>Francis Doyle</h4>
     <span class="dossier-badge">Ally / Confidant</span>
-    <p>The quiet, introverted son of Florence Doyle. Unlike the rest of his family, he shows empathy and botanical curiosity. He forms a fragile bond with Noemí and becomes vital to the cousins' escape.</p>
+    <p>The quiet, sickly son of Florence Doyle. Unlike his arrogant relatives, Francis is soft-spoken, studies botany and photography, and shows real empathy. Torn between obedience to his family and his growing affection for Noemí, he ultimately risks his life to help the cousins destroy High Place.</p>
   </div>
   <div class="dossier-card">
     <h4>Virgil Doyle</h4>
     <span class="dossier-badge">Antagonist / Husband</span>
-    <p>Catalina's charming yet predatory husband. Controlled, condescending, and intensely focused on preserving the Doyle family legacy and securing control over Noemí and Catalina.</p>
+    <p>Catalina's charming yet predatory husband. Arrogant and calculating, he manages High Place with rigid authority. He attempts to gaslight Noemí into believing Catalina is insane and uses the fungal spores to manipulate and violate Noemí's will.</p>
   </div>
   <div class="dossier-card">
     <h4>Howard Doyle</h4>
-    <span class="dossier-badge">Patriarch / Source of Infection</span>
-    <p>The decrepit, ancient head of the Doyle clan. Obsessed with 19th-century theories of racial purity and eugenics, he maintains his unnatural lifespan through an ancient symbiotic fungus infused into his bloodline.</p>
+    <span class="dossier-badge">The Ancient Patriarch</span>
+    <p>The decrepit, centuries-old founder of the Doyle dynasty. Obsessed with Victorian eugenics, skull measurements, and racial purity, he extends his life by consuming an ancient European fungus that binds his descendants into a shared hive mind through incestuous marriages.</p>
   </div>
   <div class="dossier-card">
     <h4>Florence Doyle</h4>
-    <span class="dossier-badge">Enforcer / Housekeeper</span>
-    <p>Francis's rigid, unsmiling mother who enforces strict rules across High Place: total silence at dinners, no speaking Spanish, no unapproved outdoor excursions, and cold medical isolation.</p>
+    <span class="dossier-badge">Household Enforcer</span>
+    <p>Francis's rigid, unsmiling mother who runs High Place like a prison. She enforces strict rules against speaking Spanish, playing music, or leaving the estate without permission, fanatically dedicated to preserving the family's dying bloodline.</p>
   </div>
   <div class="dossier-card">
     <h4>Dr. Arthur Cummins</h4>
     <span class="dossier-badge">Complicit Physician</span>
-    <p>The local English doctor loyal to the Doyle family. Dismisses Catalina's and Noemí's symptoms as hysterical female delusion while administering tinctures that keep them subdued.</p>
+    <p>The local English doctor loyal to the Doyles. He dismisses Catalina's and Noemí's deteriorating health as female hysteria while administering sedatives that keep them weakened and trapped inside the mansion.</p>
   </div>
   <div class="dossier-card">
     <h4>Marta Duval</h4>
-    <span class="dossier-badge">Local Healer / Curandera</span>
-    <p>A village woman in El Triunfo knowledgeable in folk remedies. She provides Noemí with herbal tinctures and protective warnings regarding the cursed English cemetery and the Doyles' silver mines.</p>
+    <span class="dossier-badge">Village Curandera</span>
+    <p>A respected folk healer in the nearby town of El Triunfo. Having witnessed decades of local miners suffering under the Doyles, she provides Noemí with herbal remedies that help break the fungal mind-control of the Gloom.</p>
   </div>
 </div>

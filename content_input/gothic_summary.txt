@@ -1,31 +1,31 @@
-<table class="matrix-table">
+﻿<table class="matrix-table">
   <thead>
     <tr>
-      <th style="width: 20%;">Narrative Arc</th>
-      <th style="width: 45%;">Core Chapter Developments & Plot Points</th>
-      <th style="width: 35%;">Thematic Motifs & Setting Lore</th>
+      <th style="width: 20%;">Chapter Arc</th>
+      <th style="width: 45%;">Key Plot Events & Core Developments</th>
+      <th style="width: 35%;">Thematic Meaning & Setting Lore</th>
     </tr>
   </thead>
   <tbody>
     <tr>
-      <td><strong>Part I: Arrival at High Place</strong><br>(Chapters 1–6)</td>
-      <td>Noemí Taboada leaves 1950s Mexico City after receiving a frantic, incoherent letter from newlywed cousin Catalina. She arrives in El Triunfo, Hidalgo, entering the oppressive, mold-covered Victorian mansion of the Doyle family. First encounters with the authoritarian patriarch Howard, the cold Florence, and the quiet Francis.</td>
-      <td>Contrast between cosmopolitan 1950s Mexican modernity and decayed British colonial aristocracy; isolation; atmospheric decay and sensory distortion.</td>
+      <td><strong>Chapters 1–6</strong><br>(Arrival at High Place)</td>
+      <td>Twenty-two-year-old socialite Noemí Taboada is summoned from a glamorous Mexico City costume party by her father. He shows her a frantic, rambling letter from her newlywed cousin Catalina, claiming her English husband Virgil Doyle is poisoning her and that the walls are whispering. Noemí agrees to investigate in exchange for permission to attend graduate school for anthropology. She travels by train to the remote mountain town of El Triunfo, Hidalgo, and arrives at High Place—a moldy, sunless Victorian mansion covered in mist. She meets the cold matriarch Florence, the quiet nephew Francis, and the ancient patriarch Howard Doyle, who makes offensive comments about race and eugenics.</td>
+      <td>Contrast between modern, independent 1950s Mexico City and stagnant British colonial enclaves; enforced household silence; Victorian decay; Real del Monte Cornish mining history.</td>
     </tr>
     <tr>
-      <td><strong>Part II: The Looming Gloom</strong><br>(Chapters 7–15)</td>
-      <td>Noemí investigates the family's abandoned silver mine and local cemetery. Catalina claims the house breathes and poisons her through the wallpaper. Noemí experiences recurring sleepwalking episodes, auditory hallucinations of a golden woman, and vivid nightmares of living golden mold.</td>
-      <td>19th-century silver exploitation; English eugenics; botanical and fungal infestation as metaphors for imperialist parasitism.</td>
+      <td><strong>Chapters 7–15</strong><br>(The Spreading Gloom)</td>
+      <td>Noemí visits a bedridden Catalina, who drifts between lucidity and wild panic, begging Noemí to fetch a local medicine from the town curandera, Marta Duval. Noemí walks to the English cemetery with Francis, learning about the family's abandoned silver mine and a past murder-suicide involving Howard's daughter, Ruth. In town, Noemí buys herbal tinctures and hears dark rumors about the Doyle dynasty. Back at High Place, Noemí suffers vivid sleepwalking episodes, nightmares of a golden-skinned woman, and visions of glowing yellow mold spreading through the walls. When Noemí tries to take Catalina home to Mexico City, Virgil and Dr. Cummins lock down the estate under the pretense of quarantine for tuberculosis.</td>
+      <td>Sensory deprivation; gaslighting and mid-century psychiatric control of women; eugenic theories of superior bloodlines; empirical mycology replacing traditional ghost stories.</td>
     </tr>
     <tr>
-      <td><strong>Part III: The Mycological Secret</strong><br>(Chapters 16–22)</td>
-      <td>Francis confides in Noemí about the Doyles' ancestral pact with an ancient fungal strain imported from Europe. Howard's unnatural longevity requires blood sacrifices and endogamy. Catalina and Noemí discover the truth behind Ruth Doyle's past murders and the family cemetery graves.</td>
-      <td>Gothic body horror; the violence of dynastic preservation; bio-symbiosis and patriarchal coercion.</td>
+      <td><strong>Chapters 16–22</strong><br>(The Secret of the Swarm)</td>
+      <td>Francis secretly confides the family truth to Noemí: the Doyles' wealth and unnatural lifespans depend on an ancient symbiotic fungus ("the Gloom") imported from Europe. The mycelium grows in the cemetery soil and throughout the mansion, allowing Howard to live for centuries by storing family consciousness and absorbing healthy hosts through blood marriages. When Noemí refuses Virgil's advances, Howard reveals his plan: because the family bloodline has degenerated through generations of incest, Noemí must be forcibly married to Francis to infuse fresh vitality into their fungal collective. Noemí is forced to drink a fungal tea during a horrific initiation ceremony.</td>
+      <td>Body horror and loss of physical consent; biological exploitation as an allegory for imperial extraction of Mexican silver; hereditary incest and the monstrosity of racial purity.</td>
     </tr>
     <tr>
-      <td><strong>Part IV: The Final Rupture</strong><br>(Chapters 23–27)</td>
-      <td>Forced wedding ceremony prepared by Howard and Virgil. Francis aids Noemí and Catalina in a desperate counter-attack. The confrontation in the family laboratory, the fire in the damp tunnels, and the collapse of the High Place dynasty as the cousins escape into dawn.</td>
-      <td>Destruction of colonial bloodlines; reclamation of autonomy; the collapse of the haunted house archetype.</td>
+      <td><strong>Chapters 23–27</strong><br>(The Fire and the Fall)</td>
+      <td>Noemí uses Marta Duval's herbal tincture to counteract the fungal mental control. Francis defies his family and helps Noemí rescue Catalina from her locked bedroom. In the family crypt, Noemí discovers the rotting, mummified remains of Agnes, the original fungal host and matriarch. Catalina stabs Virgil to death. Noemí sets the fungal queen and the underground mycelial core on fire. As High Place goes up in flames, Howard and Florence are consumed by the inferno. Noemí, Catalina, and a wounded Francis escape into the misty woods at dawn, leaving the destroyed colonial empire behind as they head toward safety.</td>
+      <td>Destruction of the colonial patriarch; reclamation of female bodily autonomy; physical collapse of the haunted house; survival and liberation from ancestral trauma.</td>
     </tr>
   </tbody>
 </table>
