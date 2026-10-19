@@ -16,11 +16,11 @@ if not chunk_files:
 
 total_pages = 0
 body_parts = []
-body_parts.append('<div class="full-text-reader" style="width:100%; display:block;">')
-body_parts.append('  <div style="background:#4a5568; color:#fff; padding:0.75rem 1.25rem; border-radius:6px 6px 0 0; font-weight:bold; font-size:0.95rem;">')
+body_parts.append('<div class="full-text-reader" style="width:100%; display:block; margin-top:1rem;">')
+body_parts.append('  <div style="background:#2d3748; color:#fff; padding:0.85rem 1.25rem; border-radius:8px 8px 0 0; font-weight:bold; font-size:1rem;">')
 body_parts.append('    Mexican Gothic by Silvia Moreno-Garcia &bull; Complete Verbatim Text (Verified Pages 1–279)')
 body_parts.append('  </div>')
-body_parts.append('  <div class="book-body" style="background:#ffffff; color:#1a202c; padding:2rem; border:1px solid #cbd5e0; border-top:none; border-radius:0 0 6px 6px; font-family:Georgia, serif; font-size:1.05rem; line-height:1.8; max-height:85vh; overflow-y:auto;">')
+body_parts.append('  <div class="book-body" style="background:#ffffff; color:#1a202c; padding:2rem; border:1px solid #cbd5e0; border-top:none; border-radius:0 0 8px 8px; font-family:Georgia, serif; font-size:1.05rem; line-height:1.8; height:75vh; overflow-y:auto; box-shadow: inset 0 2px 4px rgba(0,0,0,0.06);">')
 
 for cf in chunk_files:
     path = os.path.join(CHUNKS_DIR, cf)
@@ -34,14 +34,14 @@ for cf in chunk_files:
         page_content = pages[i+1].strip() if (i+1) < len(pages) else ""
         total_pages += 1
 
-        body_parts.append(f'    <div class="book-page" id="gothic_page_{total_pages}" style="margin-bottom:2rem; padding-bottom:1.5rem; border-bottom:1px dashed #e2e8f0;">')
-        body_parts.append(f'      <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:1px; color:#718096; margin-bottom:0.75rem;">Page {total_pages} &bull; {page_name}</div>')
+        body_parts.append(f'    <div class="book-page" id="gothic_page_{total_pages}" style="margin-bottom:2.5rem; padding-bottom:1.5rem; border-bottom:1px dashed #e2e8f0;">')
+        body_parts.append(f'      <div style="font-size:0.75rem; text-transform:uppercase; letter-spacing:1px; color:#718096; margin-bottom:0.75rem; font-weight:bold;">Page {total_pages} &bull; {page_name}</div>')
         
         for p in page_content.split("\n\n"):
             clean_p = p.replace("\n", " ").strip()
             if clean_p:
                 if re.match(r'^(CHAPTER|Chapter|[0-9]+)\b', clean_p):
-                    body_parts.append(f'      <h2 style="color:#2d3748; margin:1.5rem 0 0.75rem 0; font-size:1.4rem;">{clean_p}</h2>')
+                    body_parts.append(f'      <h2 style="color:#2d3748; margin:1.5rem 0 0.75rem 0; font-size:1.4rem; font-weight:bold;">{clean_p}</h2>')
                 else:
                     body_parts.append(f'      <p style="margin-bottom:0.9rem; text-indent:1.5rem;">{clean_p}</p>')
         
@@ -54,4 +54,4 @@ body_parts.append('</div>')
 with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
     out.write("\n".join(body_parts))
 
-print(f"Assembly Complete: {total_pages} pages processed into {OUTPUT_FILE} ({os.path.getsize(OUTPUT_FILE):,} bytes)")
+print(f"Re-assembly Complete: {total_pages} pages processed into {OUTPUT_FILE} ({os.path.getsize(OUTPUT_FILE):,} bytes)")
