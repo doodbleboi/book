@@ -20,7 +20,7 @@ body_parts.append('<div class="full-text-reader" style="width:100%; display:bloc
 body_parts.append('  <div style="background:#2d3748; color:#fff; padding:0.85rem 1.25rem; border-radius:8px 8px 0 0; font-weight:bold; font-size:1rem;">')
 body_parts.append('    Mexican Gothic by Silvia Moreno-Garcia &bull; Complete Verbatim Text (Verified Pages 1–279)')
 body_parts.append('  </div>')
-body_parts.append('  <div class="book-body" style="background:#ffffff; color:#1a202c; padding:2rem; border:1px solid #cbd5e0; border-top:none; border-radius:0 0 8px 8px; font-family:Georgia, serif; font-size:1.05rem; line-height:1.8; height:75vh; overflow-y:auto; box-shadow: inset 0 2px 4px rgba(0,0,0,0.06);">')
+body_parts.append('  <div class="book-body" style="background:#ffffff; color:#1a202c; padding:2rem; border:1px solid #cbd5e0; border-top:none; border-radius:0 0 8px 8px; font-family:Georgia, serif; font-size:1.05rem; line-height:1.8; height:650px; overflow-y:scroll; position:relative; box-shadow: inset 0 2px 4px rgba(0,0,0,0.06);">')
 
 for cf in chunk_files:
     path = os.path.join(CHUNKS_DIR, cf)
@@ -54,4 +54,4 @@ body_parts.append('</div>')
 with open(OUTPUT_FILE, "w", encoding="utf-8") as out:
     out.write("\n".join(body_parts))
 
-print(f"Re-assembly Complete: {total_pages} pages processed into {OUTPUT_FILE} ({os.path.getsize(OUTPUT_FILE):,} bytes)")
+print(f"Forced-Height Re-assembly Complete: {total_pages} pages processed into {OUTPUT_FILE} ({os.path.getsize(OUTPUT_FILE):,} bytes)")
