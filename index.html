@@ -9186,9 +9186,10 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
+
 <script>
-/* Book Portal Master Controller */
-function switchBookPortal(book) {
+/* Book Portal Portal-Safe Master Controller */
+function switchBook(book) {
     var rosesBtn = Array.from(document.querySelectorAll('button')).find(b => b.textContent.trim() === 'The Roses Underneath');
     var gothicBtn = Array.from(document.querySelectorAll('button')).find(b => b.textContent.trim() === 'Mexican Gothic');
     
@@ -9200,19 +9201,17 @@ function switchBookPortal(book) {
         if (gothicContainer) gothicContainer.style.display = 'none';
         if (rosesBtn) { rosesBtn.style.borderColor = '#2b6cb0'; rosesBtn.style.fontWeight = 'bold'; }
         if (gothicBtn) { gothicBtn.style.borderColor = '#cbd5e0'; gothicBtn.style.fontWeight = 'normal'; }
-        // Default to roses summary
-        openSubTab('roses', 'roses_summary');
+        openPortalTab('roses', 'roses_summary');
     } else {
         if (rosesContainer) rosesContainer.style.display = 'none';
         if (gothicContainer) gothicContainer.style.display = 'block';
         if (gothicBtn) { gothicBtn.style.borderColor = '#2b6cb0'; gothicBtn.style.fontWeight = 'bold'; }
         if (rosesBtn) { rosesBtn.style.borderColor = '#cbd5e0'; rosesBtn.style.fontWeight = 'normal'; }
-        // Default to gothic summary
-        openSubTab('gothic', 'gothic_summary');
+        openPortalTab('gothic', 'gothic_summary');
     }
 }
 
-function openSubTab(portal, targetId) {
+function openPortalTab(portal, targetId) {
     var prefix = portal === 'gothic' ? 'gothic_' : 'roses_';
     document.querySelectorAll('[id^="' + prefix + '"]').forEach(function(el) {
         el.style.display = 'none';
@@ -9226,24 +9225,22 @@ function openSubTab(portal, targetId) {
 }
 
 document.addEventListener('DOMContentLoaded', function() {
-    // Intercept main book buttons
     document.querySelectorAll('button').forEach(function(btn) {
         var text = btn.textContent.trim();
         if (text === 'The Roses Underneath') {
             btn.addEventListener('click', function(e) {
                 e.preventDefault();
-                switchBookPortal('roses');
+                switchBook('roses');
             });
         } else if (text === 'Mexican Gothic') {
             btn.addEventListener('click', function(e) {
                 e.preventDefault();
-                switchBookPortal('gothic');
+                switchBook('gothic');
             });
         }
     });
 
-    // Wire sub-nav buttons deterministically
-    var subTabs = [
+    var tabMappings = [
         { label: 'Summary Matrix', roses: 'roses_summary', gothic: 'gothic_summary' },
         { label: 'Character Dossiers', roses: 'roses_characters', gothic: 'gothic_characters' },
         { label: 'Discussion Questions', roses: 'roses_questions', gothic: 'gothic_questions' },
@@ -9251,16 +9248,17 @@ document.addEventListener('DOMContentLoaded', function() {
         { label: 'Full Text', roses: 'roses_full_text', gothic: 'gothic_full_text' }
     ];
 
-    subTabs.forEach(function(item) {
+    tabMappings.forEach(function(item) {
         document.querySelectorAll('button').forEach(function(btn) {
             if (btn.textContent.trim() === item.label) {
                 btn.addEventListener('click', function(e) {
                     e.preventDefault();
                     var isGothic = btn.closest('#gothic-portal-container') !== null || 
-                                   (btn.getAttribute('onclick') && btn.getAttribute('onclick').includes('gothic'));
+                                   (btn.getAttribute('onclick') && btn.getAttribute('onclick').includes('gothic')) ||
+                                   btn.closest('#gothic') !== null;
                     var portal = isGothic ? 'gothic' : 'roses';
                     var targetId = isGothic ? item.gothic : item.roses;
-                    openSubTab(portal, targetId);
+                    openPortalTab(portal, targetId);
                 });
             }
         });
