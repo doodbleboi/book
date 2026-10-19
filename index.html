@@ -338,7 +338,7 @@
         <header>
             <div class="header-title-block">
                 <h1><span>👻</span> Book Club Books</h1>
-                <p>Literary Study Portals &bull; Version 2</p>
+                <p>Literary Study Portals &bull; Version 2.1 &bull; Version 2</p>
             </div>
             <button class="theme-toggle-btn" onclick="toggleInterfaceTheme()">Theme: Switch Mode</button>
         </header>
@@ -17484,6 +17484,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 </script>
+
 <script>
 function activateBookDeck(bookKey) {
     document.querySelectorAll('.book-selector-btn').forEach(b => b.classList.remove('active'));
@@ -17505,7 +17506,6 @@ function activateContentZone(deckKey, zoneKey) {
     deck.querySelectorAll('.sub-nav-btn').forEach(b => b.classList.remove('active'));
     deck.querySelectorAll('.content-panel').forEach(p => p.classList.remove('active'));
     
-    // Find matching button and panel
     var targetPanelId = 'panel-' + deckKey + '-' + zoneKey;
     var targetPanel = document.getElementById(targetPanelId);
     
@@ -17513,8 +17513,9 @@ function activateContentZone(deckKey, zoneKey) {
         targetPanel.classList.add('active');
     }
     
-    // Activate corresponding button
-    event.currentTarget.classList.add('active');
+    if (event && event.currentTarget) {
+        event.currentTarget.classList.add('active');
+    }
 }
 </script>
 </body>
