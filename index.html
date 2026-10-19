@@ -17485,6 +17485,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 </script>
 
+
 <script>
 function activateBookDeck(bookKey) {
     document.querySelectorAll('.book-selector-btn').forEach(b => b.classList.remove('active'));
@@ -17513,7 +17514,7 @@ function activateContentZone(deckKey, zoneKey) {
         targetPanel.classList.add('active');
     }
     
-    if (event && event.currentTarget) {
+    if (typeof event !== 'undefined' && event && event.currentTarget) {
         event.currentTarget.classList.add('active');
     }
 }

@@ -14,15 +14,10 @@ with open(ROSES_TXT, "r", encoding="utf-8") as f:
 with open(GOTHIC_TXT, "r", encoding="utf-8") as f:
     gothic_text = f.read()
 
-# 1. Update Version tag to Version 2.1
-html = re.sub(
-    r'(<p>Literary Study Portals)(.*?</p>)',
-    r'\1 &bull; Version 2.1\2',
-    html,
-    flags=re.DOTALL
-)
+# 1. Cleanly update header subtitle to exactly Version 2.1 (stripping out any old duplicate versions)
+html = re.sub(r'(<p>Literary Study Portals)(?:\s*&bull;\s*Version\s*[0-9.]+)+', r'\1 &bull; Version 2.1', html)
 
-# 2. Cleanly remove any malformed or old full-text panels from both decks
+# 2. Cleanly strip out all old or misrouted full-text panels
 html = re.sub(r'<section id="panel-roses-full_text".*?</section>', '', html, flags=re.DOTALL)
 html = re.sub(r'<section id="panel-gothic-full_text".*?</section>', '', html, flags=re.DOTALL)
 html = re.sub(r'<div id="gothic_full_text".*?</div>\s*</div>', '', html, flags=re.DOTALL)
@@ -47,13 +42,13 @@ gothic_panel = f'''
                 </article>
             </section>'''
 
-# Inject Roses Full Text into deck-roses
+# Inject Roses Full Text inside deck-roses
 match_roses = re.search(r'(<main id="deck-roses" class="book-deck.*?>)(.*?)(</main>)', html, flags=re.DOTALL)
 if match_roses:
     new_inner = match_roses.group(2).strip() + '\n' + roses_panel
     html = html.replace(match_roses.group(0), match_roses.group(1) + '\n' + new_inner + '\n' + match_roses.group(3))
 
-# Inject Gothic Full Text into deck-gothic
+# Inject Gothic Full Text inside deck-gothic
 match_gothic = re.search(r'(<main id="deck-gothic" class="book-deck.*?>)(.*?)(</main>)', html, flags=re.DOTALL)
 if match_gothic:
     new_inner_g = match_gothic.group(2).strip() + '\n' + gothic_panel
@@ -65,7 +60,7 @@ html = html.replace("activateContentZone('gothic', 'gothic_full_text')", "activa
 html = html.replace("activateContentZone('roses', 'gothic_full_text')", "activateContentZone('roses', 'full_text')")
 html = html.replace("activateContentZone('gothic', 'roses_full_text')", "activateContentZone('gothic', 'full_text')")
 
-# Inject foolproof client-side tab router script before </body>
+# Inject bulletproof client-side tab router script before </body>
 router_script = '''<script>
 function activateBookDeck(bookKey) {
     document.querySelectorAll('.book-selector-btn').forEach(b => b.classList.remove('active'));
@@ -94,7 +89,7 @@ function activateContentZone(deckKey, zoneKey) {
         targetPanel.classList.add('active');
     }
     
-    if (event && event.currentTarget) {
+    if (typeof event !== 'undefined' && event && event.currentTarget) {
         event.currentTarget.classList.add('active');
     }
 }
