@@ -2,22 +2,22 @@
   <div class="dossier-card">
     <h4>Noemí Taboada</h4>
     <span class="dossier-badge">Protagonist</span>
-    <p>A smart, elegant 22-year-old socialite and anthropology student from Mexico City. She loves stylish dresses, driving her convertible, and smoking cigarettes. While her father views her as a party girl, her sharp mind, bravery, and stubborn independence make her the ultimate threat to the Doyle family's patriarchal control.</p>
+    <p>A smart, glamorous 22-year-old Mexico City socialite and anthropology student. She loves silk dresses, Elizabeth Arden lipstick, champagne parties, and driving her Buick convertible. While her father views her as a frivolous debutante, her sharp intellect, bravery, and stubborn independence make her the ultimate threat to the Doyle family.</p>
   </div>
   <div class="dossier-card">
     <h4>Catalina Sandoval Doyle</h4>
     <span class="dossier-badge">The Imperiled Cousin</span>
-    <p>Noemí's gentle, orphaned cousin whose frantic letter sets the story in motion. Swept into a whirlwind romance with Virgil Doyle, she finds herself trapped at High Place, drugged by the family physician, and fighting for her sanity against the fungal whispers in the walls.</p>
+    <p>Noemí's gentle cousin whose frantic, rambling letter triggers the rescue mission. Trapped in a deteriorating marriage to Virgil Doyle at High Place, she is subdued by Dr. Cummins's sedatives and fights for her sanity against the fungal whispers in the walls.</p>
   </div>
   <div class="dossier-card">
     <h4>Francis Doyle</h4>
     <span class="dossier-badge">Ally / Confidant</span>
-    <p>The quiet, sickly son of Florence Doyle. Unlike his arrogant relatives, Francis is soft-spoken, studies botany and photography, and shows real empathy. Torn between obedience to his family and his growing affection for Noemí, he ultimately risks his life to help the cousins destroy High Place.</p>
+    <p>The quiet, sickly son of Florence Doyle. Unlike his arrogant relatives, Francis studies botany, creates botanical illustrations and spore prints, and shows genuine empathy. Torn between obedience and his affection for Noemí, he ultimately risks his life to help destroy High Place.</p>
   </div>
   <div class="dossier-card">
     <h4>Virgil Doyle</h4>
     <span class="dossier-badge">Antagonist / Husband</span>
-    <p>Catalina's charming yet predatory husband. Arrogant and calculating, he manages High Place with rigid authority. He attempts to gaslight Noemí into believing Catalina is insane and uses the fungal spores to manipulate and violate Noemí's will.</p>
+    <p>Catalina's charming yet predatory husband. Arrogant and calculating, he manages High Place with rigid authority. He attempts to gaslight Noemí into believing Catalina is insane and uses fungal spores to manipulate and violate Noemí's will.</p>
   </div>
   <div class="dossier-card">
     <h4>Howard Doyle</h4>

@@ -1,73 +1,60 @@
 ﻿<div class="discussion-section">
-  <h3>I. Popular Praise and Critical Reception</h3>
+  <h3>I. Popular Praise & Critical Reception</h3>
   <div class="dossier-card" style="margin-bottom: 1.5rem;">
-    <h4>Subverting the Anglo-Centric Gothic Canon</h4>
-    <p>Critics (NPR, The New York Times, The Guardian) praise how Silvia Moreno-Garcia takes traditional British gothic tropes—the gloomy mansion, brooding lords, and distressed heroines—and transplants them into mid-century Mexico. Rather than treating Mexican culture as an exotic backdrop or "magic realism," the novel contrasts the glamorous, modern 1950s world of Mexico City with an isolated, decaying British colonial family in the mountains of Hidalgo.</p>
+    <h4>A Fresh Spin on Classic Gothic Tropes</h4>
+    <p>Critics (<em>The New York Times</em>, NPR's <em>Fresh Air</em>, <em>The Guardian</em>) praise how Silvia Moreno-Garcia transplants traditional British gothic elements—a spooky isolated manor, a tyrannical patriarch, and a trapped heroine—into post-colonial 1950s Mexico[cite: 52, 60]. Reviewers highlight that instead of standard supernatural ghosts, the horror is rooted in empirical mycology, eugenics, and historical exploitation[cite: 52, 60].</p>
   </div>
   <div class="dossier-card" style="margin-bottom: 1.5rem;">
-    <h4>Biological Horror Over Supernatural Ghosts</h4>
-    <p>Readers and critics celebrate the shift from a classic ghost story to "Weird biological body horror." The haunting of High Place is not driven by floating spirits, but by empirical mycology: an ancient, parasitic fungal mycelium ("the Gloom") that feeds on human hosts, stores ancestral memories, and allows the Doyle family to unnaturally prolong their lives.</p>
-  </div>
-  <div class="dossier-card" style="margin-bottom: 1.5rem;">
-    <h4>Empowered Modern Heroine</h4>
-    <p>Noemí Taboada is widely cheered by readers as a refreshing break from passive gothic heroines. She is fashionable, drives her own convertible, smokes cigarettes, speaks her mind, and studies anthropology. Her poise and sharp intellect become her greatest tools when resisting the Doyle family's intimidation.</p>
+    <h4>Noemí Taboada as a Modern Heroine</h4>
+    <p>Reviewers widely praise Noemí as a refreshing protagonist. Rather than a passive Victorian damsel, she is a glamorous, opinionated 22-year-old Mexico City debutante and anthropology student who smokes cigarettes, wears perfect red lipstick, drives her own Buick convertible, and uses her wit to stand up to the Doyle family[cite: 58, 59, 60].</p>
   </div>
 
   <h3>II. Reader Debates, Controversies, and Critiques</h3>
   <table class="matrix-table">
     <thead>
       <tr>
-        <th style="width: 25%;">Topic / Debate</th>
+        <th style="width: 25%;">Debate / Topic</th>
         <th style="width: 40%;">Core Reader Arguments & Criticisms</th>
-        <th style="width: 35%;">Literary & Thematic Meaning</th>
+        <th style="width: 35%;">Literary Meaning</th>
       </tr>
     </thead>
     <tbody>
       <tr>
         <td><strong>The 70/30 Pacing Divide</strong></td>
-        <td>The most common critique across Goodreads reviews (contributing to its 3.66 average rating) is the novel's pacing. Readers frequently complain that the first 150 to 200 pages are a slow, repetitive atmospheric burn focused on dinners, smoking rules, and vague nightmares, before suddenly accelerating into intense, graphic body horror in the final chapters.</td>
-        <td>Moreno-Garcia defends this structure as her deliberate "70/30 rule": establishing a slow, claustrophobic atmosphere for 70% of the book so the final 30% explosion of action feels earned.</td>
+        <td>The most common debate across Goodreads reviews (averaging 3.66 stars across 450k+ ratings) centers on pacing[cite: 50]. Many readers feel the first 150 pages are a slow, repetitive atmospheric build focused on dinners, etiquette rules, and strange dreams before exploding into visceral body horror in the final chapters[cite: 51].</td>
+        <td>Moreno-Garcia defends this structure as a deliberate slow-burn build, creating claustrophobia so the final horrific climax hits with maximum impact.</td>
       </tr>
       <tr>
         <td><strong>Consent and Hallucinatory Eroticism</strong></td>
-        <td>Some reviewers expressed discomfort with the dream sequences where Virgil Doyle appears to assault or seduce Noemí while she is drugged by fungal spores. Critics debate whether this magical removal of consent is a necessary exploration of patriarchal violation or an uncomfortable paranormal romance trope.</td>
-        <td>Reflects the thematic horror of bodily violation and the parasitic loss of free will caused by the Doyle family's fungal control.</td>
+        <td>Some reviewers (such as Bee Gabriel in <em>Strange Horizons</em>) criticized the dream sequences where Virgil Doyle approaches Noemí while she is drugged by fungal spores, noting that the semi-magical removal of consent mimics uncomfortable paranormal romance tropes[cite: 58].</td>
+        <td>Highlights the central theme of bodily violation and the terrifying loss of physical autonomy imposed by the Doyle hive-mind.</td>
       </tr>
       <tr>
-        <td><strong>Francis: Complicit Heir or Innocent Victim?</strong></td>
-        <td>Book club readers frequently debate Francis Doyle. Some see him as a weak, complicit coward who stood by while his family poisoned workers and abused women. Others view him as an abused, sheltered hostage who risks his life to help Noemí and Catalina destroy the estate.</td>
-        <td>Examines generational complicity: can someone raised inside an abusive, imperialist family truly break free without completely destroying their own heritage?</td>
-      </tr>
-      <tr>
-        <td><strong>Hulu Series Cancellation (2024)</strong></td>
-        <td>A major talking point among fans was Hulu's announced limited series adaptation produced by Kelly Ripa and Mark Consuelos. In April 2024, the adaptation was officially cancelled, leaving readers to debate whether the complex fungal body horror was simply too difficult to adapt visually for mainstream television.</td>
-        <td>Highlights the challenge of translating internal psychological horror and sensory fungal effects from page to screen.</td>
+        <td><strong>Francis Doyle: Complicit or Trapped?</strong></td>
+        <td>Book club readers frequently debate Francis. Some view him as a weak, cowardly bystander who benefited from his family's crimes. Others see him as an abused, sheltered hostage who risks everything to help Noemí and Catalina burn High Place to the ground.</td>
+        <td>Examines generational trauma: whether someone raised inside an abusive, imperialist dynasty can truly break free without destroying their entire identity.</td>
       </tr>
     </tbody>
   </table>
 
-  <h3>III. Author Background and Production Trivia</h3>
+  <h3>III. Author Background & Trivia</h3>
   <div class="dossier-grid" style="margin-bottom: 1.5rem;">
     <div class="dossier-card">
       <h4>Academic Eugenics Research</h4>
-      <p>Author Silvia Moreno-Garcia holds a Master's degree in Science and Technology Studies from the University of British Columbia. Her graduate thesis analyzed eugenics in H.P. Lovecraft's horror stories. In <em>Mexican Gothic</em>, she flips Lovecraft's racial fears on their head: the monsters are not racial minorities, but an inbred, pure-blooded white British family rotting from the inside out.</p>
+      <p>Silvia Moreno-Garcia holds a Master's degree in Science and Technology Studies from UBC[cite: 75]. Her graduate thesis examined eugenics in H.P. Lovecraft's work[cite: 78]. In <em>Mexican Gothic</em>, she subverts Lovecraftian horror by making the inbred British aristocracy—not racial minorities—the biological source of decay and corruption[cite: 52, 60].</p>
     </div>
     <div class="dossier-card">
       <h4>Real del Monte ("Little Cornwall")</h4>
-      <p>The town of El Triunfo is directly inspired by the real Mexican mountain town of Real del Monte in Hidalgo. In the 1820s, British Cornish miners arrived to mine silver, leaving behind cold mist, pasties (<em>pastes pachuqueños</em>), and a hilltop English cemetery with graves facing toward Britain.</p>
-    </div>
-    <div class="dossier-card">
-      <h4>Cinematic Namesake</h4>
-      <p>Noemí's last name, Taboada, is an homage to Carlos Enrique Taboada, the famous Mexican director behind classic gothic horror films like <em>Hasta el viento tiene miedo</em> (Even the Wind is Afraid).</p>
+      <p>The fictional mining town of El Triunfo is directly inspired by the real Mexican town of Real del Monte in Hidalgo[cite: 52, 53]. In the 1800s, British Cornish miners settled there, leaving behind misty mountain fog, Cornish pasties (local <em>pastes pachuqueños</em>), and a hilltop English cemetery[cite: 52, 53].</p>
     </div>
   </div>
 
   <h3>IV. Book Club Discussion Questions</h3>
   <ol style="line-height: 1.8; padding-left: 1.5rem; color: #2d3748;">
-    <li><strong>The Symbol of High Place:</strong> High Place lacks modern electricity, has peeling wallpaper, and enforces silence at the dinner table. How does the house itself represent the slow rot of British colonialism in Mexico?</li>
-    <li><strong>Feminine Agency in 1950:</strong> In 1950s Mexico, women did not yet have federal voting rights and were often labeled "hysterical" when complaining about marriage. How do gender expectations make it harder for Catalina and Noemí to escape?</li>
-    <li><strong>The Eugenics Connection:</strong> Patriarch Howard Doyle measures facial features and brags about pure bloodlines. Why does Moreno-Garcia connect the biological horror of the fungus directly to eugenics and racial purity?</li>
-    <li><strong>The Ending Sacrifice:</strong> At the climax, Francis must choose between his family's immortal lineage and helping Noemí burn the house. Does the ending offer genuine redemption for Francis, or will the trauma follow them forever?</li>
-    <li><strong>Genre Mashup:</strong> The novel has been described as "Jane Eyre meets Lovecraft meets The Yellow Wallpaper." Which literary influence feels strongest in the story, and how does Moreno-Garcia make it uniquely Mexican?</li>
+    <li><strong>The Symbol of High Place:</strong> High Place lacks modern electricity, rots with damp mold, and enforces strict silence at dinner[cite: 59]. How does the house itself represent the slow rot of British colonialism in Mexico[cite: 51]?</li>
+    <li><strong>Feminine Agency in 1950:</strong> In 1950s Mexico, women lacked federal voting rights and were easily labeled "hysterical" when complaining of abuse[cite: 60]. How do these social rules trap Catalina and Noemí[cite: 51, 60]?</li>
+    <li><strong>The Eugenics Connection:</strong> Patriarch Howard Doyle measures skull shapes and brags about pure bloodlines[cite: 60]. Why does the author tie biological horror directly to racial purity and eugenics[cite: 52, 60]?</li>
+    <li><strong>Francis's Choice:</strong> At the climax, Francis must choose between his family's immortal fungal lineage and helping Noemí burn the house[cite: 58]. Does the ending offer genuine redemption for him[cite: 58]?</li>
+    <li><strong>Genre Mashup:</strong> Critics call the book "Jane Eyre meets Lovecraft meets The Blob[cite: 52, 60]." Which literary influence feels strongest, and how does Moreno-Garcia make it uniquely Mexican[cite: 52, 60]?</li>
   </ol>
 </div>
